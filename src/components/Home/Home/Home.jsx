@@ -5,7 +5,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import { RxCrossCircled } from "react-icons/rx";
 import { IoSunnyOutline } from "react-icons/io5";
 import { MdOutlineSevereCold } from "react-icons/md";
-
+import { FaStar } from "react-icons/fa";
 
 const Home = () => {
     const [bottles, setBottles] = useState([]);
@@ -167,6 +167,41 @@ const Home = () => {
                 </div>
                 <div className='flex md:justify-end'>
                 <img className='md:w-[400px] lg:w-[571px] max-h-[571px] ' src="https://s3-alpha-sig.figma.com/img/3a60/0150/7241fc9e7a98aa6253da31d9891baa38?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvfSObkguNcqDnMir8Z7nbmjJa3gHVdOETFboNXXavl0lbnRZ8y0cpUF7DZOfL78m79DPmJNm7PK-BbleLj5xPqGaLhBZP7GQc9d~faovf-m4PnSKNHfR1PzZEGWPYPNgu32PGwGduQ6N0zI6H7N5VjBgCL9aPm-oSk5Ne7dOnMSnWOKewB001PLOFu1ZZdPOrmokfvR2xBuJjjWw6RI6kUGN~lqdwmvd65U0bBZ4wNeLJJXHej5r2ee6AVjmewL0xTkQsXnXDMLceL2a5BvtCzx3VI4LiqB63lZIPp3BfokONrq669LRKuFdeawtKN6c6L8SlekorfNSgXOyTICVg__" alt="" />
+                </div>
+            </section>
+
+
+            {/* happy customer section  */}
+
+            <section className='bg-black py-16 mt-12 md:mt-32'>
+
+                <div className='md:flex items-center justify-center gap-8 px-5 mb-9 md:px-0'>
+                    <span className='flex text-yellow-500 text-2xl gap-1 '>
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    </span>
+                    <h1 className='text-white text-2xl'>15,00+ Happy Customers</h1>
+                </div>
+                <div className='md:flex justify-between items-center max-w-[1440px] px-5 md:px-0 mx-auto text-white'>
+                    <div className='text-center'>
+                        <p className='max-w-[380px] mb-5'>``Ever since I started using [Product Name], my home has never felt cleaner or fresher. It's a game-changer in the cleaning world!``</p>
+                        <p className='mb-2'>Alexa M</p>
+                        <small>Verified Customer</small>
+                    </div>
+                    <div className='text-center'>
+                        <p className='max-w-[380px] mb-5'>``With two kids and a pet, messes are inevitable. [Product Name] effortlessly tackles the toughest stains, leaving my home spotless every time!``</p>
+                        <p className='mb-2'>Nathan R</p>
+                        <small>Verified Customer</small>
+                    </div>
+                    <div className='text-center'>
+                        <p className='max-w-[380px] mb-5'>``I`ve tried countless cleaning products, but none have impressed me as much as [Product Name]. It’s both effective and smells amazing!``</p>
+                        <p className='mb-2'>Linda F</p>
+                        <small>Verified Customer</small>
+                    </div>
+                    
                 </div>
             </section>
         </div>

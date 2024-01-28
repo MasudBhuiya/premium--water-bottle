@@ -1,16 +1,18 @@
 import { useEffect, useState } from 'react';
 import './Home.css'
 import Card from '../Card/Card';
+import { FaCheckCircle } from "react-icons/fa";
+import { RxCrossCircled } from "react-icons/rx";
 
 const Home = () => {
     const [bottles, setBottles] = useState([]);
     const [showAll, setShowAll] = useState(false);
-// console.log(bottles);
-    useEffect(()=>{
+    // console.log(bottles);
+    useEffect(() => {
         fetch('bottles.json')
-        .then(res => res.json())
-        .then(data => setBottles(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setBottles(data))
+    }, [])
     return (
         <div>
             {/* banner section  */}
@@ -36,22 +38,22 @@ const Home = () => {
             {/* clean section  */}
             <section className='bg-black '>
                 <div className='md:flex justify-between items-center max-w-[1440px] px-4 md:px-0 mx-auto text-white py-10'>
-                <div className='flex items-center gap-4'>
-                    <img className='w-16' src="https://i.ibb.co/r0Qj5nK/Screenshot-2024-01-28-130523.png" alt="" />
-                    <p>Easy Clean</p>
-                </div>
-                <div className='flex items-center gap-4'>
-                    <img className='w-16' src="https://i.ibb.co/mzhjqNg/Screenshot-2024-01-28-125804.png" alt="" />
-                    <p>1 Year Warranty</p>
-                </div>
-                <div className='flex items-center gap-4'>
-                    <img className='w-16' src="https://i.ibb.co/805yKfn/Screenshot-2024-01-28-125843.png" alt="" />
-                    <p>12h Hot/18h Cold</p>
-                </div>
-                <div className='flex items-center gap-4'>
-                    <img className='w-16' src="https://i.ibb.co/2y2b1NM/Screenshot-2024-01-28-125859.png" alt="" />
-                    <p>Stainless Steeln</p>
-                </div>
+                    <div className='flex items-center gap-4'>
+                        <img className='w-16' src="https://i.ibb.co/r0Qj5nK/Screenshot-2024-01-28-130523.png" alt="" />
+                        <p>Easy Clean</p>
+                    </div>
+                    <div className='flex items-center gap-4'>
+                        <img className='w-16' src="https://i.ibb.co/mzhjqNg/Screenshot-2024-01-28-125804.png" alt="" />
+                        <p>1 Year Warranty</p>
+                    </div>
+                    <div className='flex items-center gap-4'>
+                        <img className='w-16' src="https://i.ibb.co/805yKfn/Screenshot-2024-01-28-125843.png" alt="" />
+                        <p>12h Hot/18h Cold</p>
+                    </div>
+                    <div className='flex items-center gap-4'>
+                        <img className='w-16' src="https://i.ibb.co/2y2b1NM/Screenshot-2024-01-28-125859.png" alt="" />
+                        <p>Stainless Steeln</p>
+                    </div>
                 </div>
             </section>
 
@@ -59,14 +61,83 @@ const Home = () => {
                 <h1>Turn heads with our selection of sleek stainless steel water bottles! Our BPA-free bottles keep drinks cold for hours and feature eye-catching colors and prints</h1>
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-4 md:px-0 mt-10 md:mt-16 gap-6 items-center justify-center mb-5'>
-                {
-                  showAll ? bottles?.map(bottle => <Card key={bottle.id} bottle={bottle}></Card>) : bottles?.slice(0, 4).map(bottle => <Card key={bottle.id} bottle={bottle}></Card> )
-                }
+                    {
+                        showAll ? bottles?.map(bottle => <Card key={bottle.id} bottle={bottle}></Card>) : bottles?.slice(0, 4).map(bottle => <Card key={bottle.id} bottle={bottle}></Card>)
+                    }
                 </div>
 
-{showAll ? <button className='px-9 text-xl banner-btn' onClick={() => setShowAll(!showAll)}>View Some</button> :
-        <button className='px-9 text-xl banner-btn' onClick={() => setShowAll(!showAll)}>View all</button>
-      }
+                {showAll ? <button className='btn bg-cyan-700 text-white px-12 rounded-none hover:bg-cyan-900 text-xl ' onClick={() => setShowAll(!showAll)}>View Some</button> :
+                    <button className='btn bg-cyan-700 text-white px-12 rounded-none hover:bg-cyan-900 text-xl ' onClick={() => setShowAll(!showAll)}>View all</button>
+                }
+            </section>
+
+
+            {/* why choose us section  */}
+            <section className='max-w-[1440px] mx-auto'>
+                <h1 className='text-3xl md:text-5xl font-bold max-w-[670px] mx-auto mt-16 md:mt-32 text-center'>Why Choose Our Premium  Bottle?</h1>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 md:mt-20'>
+                    <img className='md:w-[400px] lg:w-[571px] ' src="https://s3-alpha-sig.figma.com/img/423b/1a7d/196de8517550dd9fe99083315db8f4cb?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mh8F~3YwGr8EWRH1x6BI---rExwn4cDc46~ImHeRadfkCs9OXGzXRoeWjcEAs8gpIb8hwTG0PdZqcX0ZP1pGCXgyhYawDGM1gvCa8LLsZqd6KvLRadt3hVwjd7iTVRWJxKE7HBVAlr5aei5YziT6kunUt9hPN6Eoz3GBHVdLfftri2HJUKfX7d14DoHXFbeFlxOIKj2tGL9zA5Py6cDppDOWrlZMekOKaHTRgHDr-yg14SJtMbVU1qavoy4SvCoU~QL4p8F51d20LtWDsz4t6Ivb9YfyWNw9piYknKeB00uq9rDeKQl6tXd~KVmt-VwQYwa8uzuAVZjNJL2pXGiY8Q__" alt="" />
+
+
+
+                    <div className=''>
+                        <table className='table w-full '>
+                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                                <th></th>
+                                <th className='border-x-slate-300 border-x-2 bg-black text-white text-center'>We</th>
+                                <th className='text-center'>Others</th>
+                            </tr>
+                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                                <td >Unparalleled effectiveness</td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
+                                </td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-8'><FaCheckCircle />
+                                </td>
+                            </tr>
+                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                                <td>No harsh chemicals</td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
+                                </td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-8'><RxCrossCircled />
+
+                                </td>
+                            </tr>
+                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                                <td>Environment friendly</td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
+                                </td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-8'><RxCrossCircled />
+
+                                </td>
+                            </tr>
+                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                                <td>High Quality</td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
+                                </td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-8'><RxCrossCircled />
+
+                                </td>
+                            </tr>
+                            <tr className='text-2xl h-[65px]  font-bold'>
+                                <td>Affordable cost</td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
+                                </td>
+                                <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-8'><RxCrossCircled />
+
+                                </td>
+                            </tr>
+                        </table>
+
+                        <button className=' btn bg-black btn-block rounded-none h-16 hover:bg-slate-900 mt-7 text-xl text-white'>Shop Now</button>
+                        <div className='flex mt-5 items-center gap-5'>
+                            <img className='rounded-full w-20' src="https://i.ibb.co/vjmgn3L/Screenshot-2024-01-28-172025.png" alt="" />
+                            <p className='text-xl'>Try it risk-free for 30 days. If you`re not totally in love with the product, we will refund you 100%.</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
             </section>
         </div>
     );

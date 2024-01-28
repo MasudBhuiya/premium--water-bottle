@@ -3,6 +3,9 @@ import './Home.css'
 import Card from '../Card/Card';
 import { FaCheckCircle } from "react-icons/fa";
 import { RxCrossCircled } from "react-icons/rx";
+import { IoSunnyOutline } from "react-icons/io5";
+import { MdOutlineSevereCold } from "react-icons/md";
+
 
 const Home = () => {
     const [bottles, setBottles] = useState([]);
@@ -141,16 +144,29 @@ const Home = () => {
 
 
             {/* carrying section  */}
-            <section className='grid grid-cols-1 md:grid-cols-2 mt-36 max-w-[1440px] mx-auto px-5 md:px-0'>
+            <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-36 max-w-[1440px] gap-10 mx-auto px-5 md:px-0'>
                 <div>
-                    <h1 className='text-3xl md:text-5xl font-bold max-w-[500px]  mt-16 md:mt-32 '>You just need these when you travel for easy carrying.</h1>
-                    <p className='text-lg mt-4 max-w-[600px]'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
-
+                    <h1 className='text-3xl md:text-5xl font-bold max-w-[500px] text-center md:text-start mt-16 md:mt-32 '>You just need these when you travel for easy carrying.</h1>
+                    <p className='text-lg mt-5 max-w-[500px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
+                    <div className='flex gap-6 mt-5'>
+                    <span className='flex items-center gap-3'>
+                    <IoSunnyOutline className='text-4xl text-yellow-500' />
+                    <p className='font-medium'>Hot for 12hr</p>
+                    </span>
+                    <span className='flex items-center gap-3'>
+                    <MdOutlineSevereCold className='text-4xl text-yellow-500' />
+                    <p className='font-medium'>Cold for 16hr</p>
+                    </span>
+                    </div>
+                    <div className='flex justify-between items-center max-w-[600px]'>
+                    <button className='banner-btn w-full md:w-fit text-[15px] md:font-bold px-9 mt-6'>Buy Now & Get Free a Premium Bag</button>
+                    <p><del className='text-gray-400'>$120.00</del> $100.00</p>
+                    </div>
 
 
                 </div>
                 <div className='flex md:justify-end'>
-                <img className='md:w-[400px] lg:w-[571px] h-[571px] ' src="https://s3-alpha-sig.figma.com/img/3a60/0150/7241fc9e7a98aa6253da31d9891baa38?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvfSObkguNcqDnMir8Z7nbmjJa3gHVdOETFboNXXavl0lbnRZ8y0cpUF7DZOfL78m79DPmJNm7PK-BbleLj5xPqGaLhBZP7GQc9d~faovf-m4PnSKNHfR1PzZEGWPYPNgu32PGwGduQ6N0zI6H7N5VjBgCL9aPm-oSk5Ne7dOnMSnWOKewB001PLOFu1ZZdPOrmokfvR2xBuJjjWw6RI6kUGN~lqdwmvd65U0bBZ4wNeLJJXHej5r2ee6AVjmewL0xTkQsXnXDMLceL2a5BvtCzx3VI4LiqB63lZIPp3BfokONrq669LRKuFdeawtKN6c6L8SlekorfNSgXOyTICVg__" alt="" />
+                <img className='md:w-[400px] lg:w-[571px] max-h-[571px] ' src="https://s3-alpha-sig.figma.com/img/3a60/0150/7241fc9e7a98aa6253da31d9891baa38?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvfSObkguNcqDnMir8Z7nbmjJa3gHVdOETFboNXXavl0lbnRZ8y0cpUF7DZOfL78m79DPmJNm7PK-BbleLj5xPqGaLhBZP7GQc9d~faovf-m4PnSKNHfR1PzZEGWPYPNgu32PGwGduQ6N0zI6H7N5VjBgCL9aPm-oSk5Ne7dOnMSnWOKewB001PLOFu1ZZdPOrmokfvR2xBuJjjWw6RI6kUGN~lqdwmvd65U0bBZ4wNeLJJXHej5r2ee6AVjmewL0xTkQsXnXDMLceL2a5BvtCzx3VI4LiqB63lZIPp3BfokONrq669LRKuFdeawtKN6c6L8SlekorfNSgXOyTICVg__" alt="" />
                 </div>
             </section>
         </div>

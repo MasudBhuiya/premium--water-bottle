@@ -369,54 +369,97 @@ const Home = () => {
 
 
             {/* asked question section  */}
-            <section className='mt-24 md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 md:px-0'>
-            <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Frequently Asked Questions</h1>
-            <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm mt-12 md:mt-20">
-  <input type="radio" name="my-accordion-3" checked="checked" /> 
-  <div className="collapse-title text-xl font-medium">
-  Can I customize my box?
-  </div>
-  <div className="collapse-content"> 
-    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-  </div>
-</div>
-<div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
-  <input type="radio" name="my-accordion-3" /> 
-  <div className="collapse-title text-xl font-medium">
-  Are the products cruelty-free?
-  </div>
-  <div className="collapse-content"> 
-    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-  </div>
-</div>
-<div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
-  <input type="radio" name="my-accordion-3" /> 
-  <div className="collapse-title text-xl font-medium">
-  What if I have allergic reactions?
-  </div>
-  <div className="collapse-content"> 
-    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-  </div>
-</div>
-<div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
-  <input type="radio" name="my-accordion-3" /> 
-  <div className="collapse-title text-xl font-medium">
-  Can I choose my products every month?
-  </div>
-  <div className="collapse-content"> 
-    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-  </div>
-</div>
-<div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
-  <input type="radio" name="my-accordion-3" /> 
-  <div className="collapse-title text-xl font-medium">
-  What if I have allergies?
-  </div>
-  <div className="collapse-content"> 
-    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-  </div>
-</div>
+            <section className=' md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 md:px-0'>
+                <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Frequently Asked Questions</h1>
+                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm mt-12 md:mt-20">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div className="collapse-title text-xl font-medium">
+                        Can I customize my box?
+                    </div>
+                    <div className="collapse-content">
+                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
+                    <input type="radio" name="my-accordion-3" />
+                    <div className="collapse-title text-xl font-medium">
+                        Are the products cruelty-free?
+                    </div>
+                    <div className="collapse-content">
+                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
+                    <input type="radio" name="my-accordion-3" />
+                    <div className="collapse-title text-xl font-medium">
+                        What if I have allergic reactions?
+                    </div>
+                    <div className="collapse-content">
+                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
+                    <input type="radio" name="my-accordion-3" />
+                    <div className="collapse-title text-xl font-medium">
+                        Can I choose my products every month?
+                    </div>
+                    <div className="collapse-content">
+                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+                    </div>
+                </div>
+                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
+                    <input type="radio" name="my-accordion-3" />
+                    <div className="collapse-title text-xl font-medium">
+                        What if I have allergies?
+                    </div>
+                    <div className="collapse-content">
+                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+                    </div>
+                </div>
             </section>
+
+
+            {/* latest update section  */}
+            <section className='mt-12 md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 md:px-0'>
+            <h1 className='title text-3xl md:text-6xl text-center md:text-start mb-4'>Latest Update</h1>
+            <div className='flex justify-between items-center'>
+                <p>A water bottle is a container designed for holding and transporting water.</p>
+                <button className='banner-btn  text-[15px] md:font-bold px-9 '>Contact Us</button>
+            </div>
+
+            <div className='grid grid-cols-1 lg:grid-cols-2'>
+            <section className='md:flex mt-12 md:mt-20 max-w-[1440px] items-center gap-8 mx-auto '>
+                <div className=''>
+                    <img className='md:w-[250px] w-full h-[248px]' src="https://s3-alpha-sig.figma.com/img/714d/63b0/f9b7bc10494207a37a2e11e216513a71?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H6wmbdBTEZdZlWd1z3PzPNarIIS9jFl4mYH21L62H5IANeOe36aFzJUmvxhhyp5lLfH9haKog~pUPa8-lG7xeBEcoS8eKjVOGwvimK2mVRqgz1d1F3WX92FNe7VVp~xlk8QcPQEhJtWP2n0Tgaepw7pjwCPkxEzmoxKoAzH3lmHT8caHMqZIRRjJFuzC4YBogMP6uw~TSuKjy-ky3ry87KW6YH61Px6HOhiMIGOzM7TWMOSgN~QIwz72x-GHK~BU1F4OGzaneGcx~LQ-E5eylu1B5DFprrjXDz64aWPZLsYEztRkvFDA5V96m-ocHvtpzmLeyipmyB1WxLOlH0Nuzg__" alt="" />
+                </div>
+                <div>
+                    <h1 className='text-2xl md:text-2xl  font-bold max-w-[400px] text-center md:text-start '>A water bottle is a container designed for holding.</h1>
+                    <p className='md:text-base mt-5 max-w-[400px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills.</p>
+
+                    <div className='flex items-center max-w-[600px] gap-5'>
+                        <button className='banner-btn  text-[15px] md:font-bold px-9 mt-4'>View More</button>
+                        
+                    </div>
+                </div>
+            </section>
+            <section className='md:flex mt-12 md:mt-20 max-w-[1440px] items-center gap-8 mx-auto '>
+                <div className=''>
+                    <img className='md:w-[250px] w-full h-[248px]' src="https://s3-alpha-sig.figma.com/img/e3b0/9ac6/c4616824006bf4122556f8eb3b1189cf?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BW04MpbhJZa-KpzVFo6VAz5Uk1tqgQZfUhGHKiC3SNi32SergpS-Y-nL~ZLWruqQtG~QuSCMtLk8BTZiyeNyG2ZjYGTF522zKnl9T03KAZNbQenZD1s7Fy6ufaQU39NhyQW88l0jCvZtI4QC~Cvr3AxQTEoS36zDj6MFOcV1sx7TM6XMQz0sLailVfUShN280eIK1h2U-kZ1wp2~6X6uzz9A5ZtEkrbuOvOaNwjhFPRST6iW4-eIVAPY19~TiCyxdFrgp5BlNzPeW7FF9hdBLt2BBM2Gqq-jEKQedBybRuI6QyGkE8ZKEVjmQDipag5gloaUvpbzveSd8Rc88QLqIg__" alt="" />
+                </div>
+                <div>
+                    <h1 className='text-2xl md:text-2xl  font-bold max-w-[400px] text-center md:text-start '>A water bottle is a container designed for holding.</h1>
+                    <p className='md:text-base mt-5 max-w-[400px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills.</p>
+
+                    <div className='flex items-center max-w-[600px] gap-5'>
+                        <button className='banner-btn  text-[15px] md:font-bold px-9 mt-4'>View More</button>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            </div>
+            </section>
+            
         </div>
     );
 };

@@ -1,0 +1,135 @@
+[
+    {
+      "name": "Steel Metal Bottle 1L",
+      "brand": "Adidas",
+      "capacity": 500,
+      "material": "Plastic",
+      "color": "Blue",
+      "rating": 4.5,
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 9.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/a9c04ca9fa51408faf2fac8e0117abb9_9366/Steel_Metal_Bottle_1L_Black_EX7288_01_standard.jpg",
+      "opacity": 0.8
+    },
+    {
+      "name": "Steel Metal Bottle 600 ML",
+      "brand": "Adidas",
+      "capacity": 750,
+      "material": "Glass",
+      "color": "Clear",
+      "rating": 4.2,
+      "details": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 14.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1105dc0c9232477eb80dac7d000edc0c_9366/Steel_Metal_Bottle_600_ML_White_EX7306_01_standard.jpg",
+      "opacity": 0.9
+    },
+    {
+      "name": "Steel Straw Metal Bottle 600 ML",
+      "brand": "Adidas",
+      "capacity": 1000,
+      "material": "Stainless Steel",
+      "color": "Silver",
+      "rating": 4.8,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "price": 19.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f7fb63986ed34112bc57ac7d002c9f43_9366/Steel_Straw_Metal_Bottle_600_ML_White_EX7316_01_standard.jpg",
+      "opacity": 0.7
+    },
+    {
+      "name": "Steel Metal Bottle 600 ML",
+      "brand": "Adidas",
+      "capacity": 1000,
+      "material": "Stainless Steel",
+      "color": "Yellow",
+      "rating": 4.8,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "price": 19.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e2d870a680644e4d98e9ac7d0008ecc7_9366/Steel_Metal_Bottle_600_ML_Yellow_EX7307_01_standard.jpg",
+      "opacity": 0.7
+    },
+    {
+      "name": "Squad Glass Bottle 720 ML",
+      "brand": "Adidas",
+      "capacity": 1000,
+      "material": "Stainless Steel",
+      "color": "Black",
+      "rating": 4.8,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "price": 19.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/77ad16764abf4e828560ad44001cd640_9366/Squad_Glass_Bottle_720_ML_Black_FZ7115_01_standard.jpg",
+      "opacity": 0.7
+    },
+    {
+      "name": "Steel Bottle 600 ML",
+      "brand": "Adidas",
+      "capacity": 1000,
+      "material": "Stainless Steel",
+      "color": "Black",
+      "rating": 4.8,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "price": 19.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/48057b65216644f683a9aa1c0172ae6e_9366/Steel_Bottle_600_ML_Black_CL6093_01_standard.jpg",
+      "opacity": 0.7
+    },
+    {
+      "name": "Steel Metal Bottle 2L",
+      "brand": "Adidas",
+      "capacity": 1000,
+      "material": "Stainless Steel",
+      "color": "Black",
+      "rating": 4.8,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "price": 19.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f8d89293c9cb4bf08d52adb100f95a3a_9366/Steel_Metal_Bottle_2L_Black_EX7302_01_standard.jpg",
+      "opacity": 0.7
+    },
+    {
+      "name": "Piazzas",
+      "brand": "Adidas",
+      "capacity": 1000,
+      "material": "Stainless Steel",
+      "color": "white",
+      "rating": 4.8,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "price": 19.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62Cy0cmmDaRvwWyz9gw86Pc5KHbb3CjOY_b0qNbcb13uOIBMNvdI21acLgf8QQmnct-Y&usqp=CAU",
+      "opacity": 0.7
+    },
+    {
+      "name": "AquaWave",
+      "brand": "Adidas",
+      "capacity": 1000,
+      "material": "Plastic",
+      "color": "white",
+      "rating": 4.8,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "price": 19.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST1xKJ8smq_UKe-txqeUoprMSfwplw5hcs67q23enSq9SA10VIVHpYkBlIb4HVqjMwPuI&usqp=CAU",
+      "opacity": 0.7
+    },
+    {
+      "name": "PureStream",
+      "brand": "Adidas",
+      "capacity": 1000,
+      "material": "Stainless Steel",
+      "color": "White",
+      "rating": 4.8,
+      "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "price": 19.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7F75gGWYcT8OCyOYiuk8E9hhb8NZL_ItVnHuNZC292S-rvrny2Md8AeoheYgklh8um_4&usqp=CAU",
+      "opacity": 0.7
+    },
+    {
+      "name": "CrystalQuench",
+      "brand": "Adidas",
+      "capacity": 600,
+      "material": "Aluminum",
+      "color": "Silver",
+      "rating": 3.9,
+      "details": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": 12.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSddRFYW4_q-X81W3ueOBOxDMYo-miS0W4VrkMCXpojDL8qNXjZbK4UyHQGSdAi9a64d84&usqp=CAU",
+      "opacity": 0.85
+    }
+  ]
+  

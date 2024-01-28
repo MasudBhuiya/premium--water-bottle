@@ -22,3 +22,10 @@ align-items: center;
 flex-shrink: 0;
 background: #03677C;
 }
+.bottles-title{
+    color: var(--black, #000);
+text-align: center;
+font-family: Inter;
+font-style: normal;
+font-weight: 400; /* 150% */
+}

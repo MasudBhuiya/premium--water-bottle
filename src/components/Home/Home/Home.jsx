@@ -1,6 +1,16 @@
+import { useEffect, useState } from 'react';
 import './Home.css'
+import Card from '../Card/Card';
 
 const Home = () => {
+    const [bottles, setBottles] = useState([]);
+    const [showAll, setShowAll] = useState(false);
+// console.log(bottles);
+    useEffect(()=>{
+        fetch('bottles.json')
+        .then(res => res.json())
+        .then(data => setBottles(data))
+    },[])
     return (
         <div>
             {/* banner section  */}
@@ -25,27 +35,44 @@ const Home = () => {
 
             {/* clean section  */}
             <section className='bg-black '>
-                <div className='md:flex justify-between max-w-[1440px] mx-auto text-white py-10'>
+                <div className='md:flex justify-between items-center max-w-[1440px] px-4 md:px-0 mx-auto text-white py-10'>
                 <div className='flex items-center gap-4'>
                     <img className='w-16' src="https://i.ibb.co/r0Qj5nK/Screenshot-2024-01-28-130523.png" alt="" />
                     <p>Easy Clean</p>
                 </div>
                 <div className='flex items-center gap-4'>
-                    <img className='w-16' src="https://i.ibb.co/r0Qj5nK/Screenshot-2024-01-28-130523.png" alt="" />
-                    <p>Easy Clean</p>
+                    <img className='w-16' src="https://i.ibb.co/mzhjqNg/Screenshot-2024-01-28-125804.png" alt="" />
+                    <p>1 Year Warranty</p>
                 </div>
                 <div className='flex items-center gap-4'>
-                    <img className='w-16' src="https://i.ibb.co/r0Qj5nK/Screenshot-2024-01-28-130523.png" alt="" />
-                    <p>Easy Clean</p>
+                    <img className='w-16' src="https://i.ibb.co/805yKfn/Screenshot-2024-01-28-125843.png" alt="" />
+                    <p>12h Hot/18h Cold</p>
                 </div>
                 <div className='flex items-center gap-4'>
-                    <img className='w-16' src="https://i.ibb.co/r0Qj5nK/Screenshot-2024-01-28-130523.png" alt="" />
-                    <p>Easy Clean</p>
+                    <img className='w-16' src="https://i.ibb.co/2y2b1NM/Screenshot-2024-01-28-125859.png" alt="" />
+                    <p>Stainless Steeln</p>
                 </div>
                 </div>
+            </section>
+
+            <section className='bottles-title max-w-[1440px] mx-auto mt-10 md:mt-28 text-2xl md:text-4xl'>
+                <h1>Turn heads with our selection of sleek stainless steel water bottles! Our BPA-free bottles keep drinks cold for hours and feature eye-catching colors and prints</h1>
+
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-4 md:px-0 mt-10 md:mt-16 gap-6 items-center justify-center mb-5'>
+                {
+                  showAll ? bottles?.map(bottle => <Card key={bottle.id} bottle={bottle}></Card>) : bottles?.slice(0, 4).map(bottle => <Card key={bottle.id} bottle={bottle}></Card> )
+                }
+                </div>
+
+{showAll ? <button className='px-9 text-xl banner-btn' onClick={() => setShowAll(!showAll)}>View Some</button> :
+        <button className='px-9 text-xl banner-btn' onClick={() => setShowAll(!showAll)}>View all</button>
+      }
             </section>
         </div>
     );
 };
 
 export default Home;
+
+
+

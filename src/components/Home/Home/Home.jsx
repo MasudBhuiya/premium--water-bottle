@@ -61,7 +61,7 @@ const Home = () => {
             </section>
 
 
-                {/* card section  */}
+            {/* card section  */}
             <section className='bottles-title max-w-[1440px] mx-auto mt-10 md:mt-28 text-2xl md:text-4xl'>
                 <h1>Turn heads with our selection of sleek stainless steel water bottles! Our BPA-free bottles keep drinks cold for hours and feature eye-catching colors and prints</h1>
 
@@ -149,24 +149,24 @@ const Home = () => {
                     <h1 className='text-3xl md:text-5xl font-bold max-w-[500px] text-center md:text-start  '>You just need these when you travel for easy carrying.</h1>
                     <p className='text-lg mt-5 max-w-[500px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
                     <div className='flex gap-6 mt-5'>
-                    <span className='flex items-center gap-3'>
-                    <IoSunnyOutline className='text-4xl text-yellow-500' />
-                    <p className='font-medium'>Hot for 12hr</p>
-                    </span>
-                    <span className='flex items-center gap-3'>
-                    <MdOutlineSevereCold className='text-4xl text-yellow-500' />
-                    <p className='font-medium'>Cold for 16hr</p>
-                    </span>
+                        <span className='flex items-center gap-3'>
+                            <IoSunnyOutline className='text-4xl text-yellow-500' />
+                            <p className='font-medium'>Hot for 12hr</p>
+                        </span>
+                        <span className='flex items-center gap-3'>
+                            <MdOutlineSevereCold className='text-4xl text-yellow-500' />
+                            <p className='font-medium'>Cold for 16hr</p>
+                        </span>
                     </div>
                     <div className='md:flex  justify-between items-center max-w-[600px]'>
-                    <button className='banner-btn w-full md:w-fit text-[15px] md:font-bold px-9 mt-6'>Buy Now & Get Free a Premium Bag</button>
-                    <p className='mt-3 md:mt-0'><del className='text-gray-400'>$120.00</del> $100.00</p>
+                        <button className='banner-btn w-full md:w-fit text-[15px] md:font-bold px-9 mt-6'>Buy Now & Get Free a Premium Bag</button>
+                        <p className='mt-3 md:mt-0'><del className='text-gray-400'>$120.00</del> $100.00</p>
                     </div>
 
 
                 </div>
                 <div className='flex md:justify-end'>
-                <img className='md:w-[400px] lg:w-[571px] max-h-[571px] ' src="https://s3-alpha-sig.figma.com/img/3a60/0150/7241fc9e7a98aa6253da31d9891baa38?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvfSObkguNcqDnMir8Z7nbmjJa3gHVdOETFboNXXavl0lbnRZ8y0cpUF7DZOfL78m79DPmJNm7PK-BbleLj5xPqGaLhBZP7GQc9d~faovf-m4PnSKNHfR1PzZEGWPYPNgu32PGwGduQ6N0zI6H7N5VjBgCL9aPm-oSk5Ne7dOnMSnWOKewB001PLOFu1ZZdPOrmokfvR2xBuJjjWw6RI6kUGN~lqdwmvd65U0bBZ4wNeLJJXHej5r2ee6AVjmewL0xTkQsXnXDMLceL2a5BvtCzx3VI4LiqB63lZIPp3BfokONrq669LRKuFdeawtKN6c6L8SlekorfNSgXOyTICVg__" alt="" />
+                    <img className='md:w-[400px] lg:w-[571px] max-h-[571px] ' src="https://s3-alpha-sig.figma.com/img/3a60/0150/7241fc9e7a98aa6253da31d9891baa38?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvfSObkguNcqDnMir8Z7nbmjJa3gHVdOETFboNXXavl0lbnRZ8y0cpUF7DZOfL78m79DPmJNm7PK-BbleLj5xPqGaLhBZP7GQc9d~faovf-m4PnSKNHfR1PzZEGWPYPNgu32PGwGduQ6N0zI6H7N5VjBgCL9aPm-oSk5Ne7dOnMSnWOKewB001PLOFu1ZZdPOrmokfvR2xBuJjjWw6RI6kUGN~lqdwmvd65U0bBZ4wNeLJJXHej5r2ee6AVjmewL0xTkQsXnXDMLceL2a5BvtCzx3VI4LiqB63lZIPp3BfokONrq669LRKuFdeawtKN6c6L8SlekorfNSgXOyTICVg__" alt="" />
                 </div>
             </section>
 
@@ -177,11 +177,11 @@ const Home = () => {
 
                 <div className='md:flex items-center justify-center gap-8 px-5 mb-9 md:px-0'>
                     <span className='flex text-yellow-500 text-2xl gap-1 '>
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
                     </span>
                     <h1 className='text-white text-2xl'>15,00+ Happy Customers</h1>
                 </div>
@@ -201,69 +201,69 @@ const Home = () => {
                         <p className='mb-2'>Linda F</p>
                         <small>Verified Customer</small>
                     </div>
-                    
+
                 </div>
             </section>
 
 
             {/* contact us section  */}
             <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-36 max-w-[1440px] items-center gap-10 mx-auto px-5 md:px-0'>
-            <div className=''>
-                <img className='md:w-[500px] h-[407px]' src="https://s3-alpha-sig.figma.com/img/48f1/2ab9/01cece86c715bc1adb0ae9a2e78f72f6?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=enkfzlD205UpPpiqFNGob2zYxTjw~IMjgQtAmGIKyZf76Y7SRZhrK9SEoVi6oOK04gt21zadPu5K5nffDDXCIt6We-6sHzFQHFJBfxpWsrnVqh-ZtTU5yTz8NWVIW5yTHZI-6MkJCxu5CNhDAKho6j9W0OmzF960k5M~Hdpt16Xs4KjktNTh4EpRsi2i~DziDA0xHCt2Yr0b8kDZpskXylBFur2~GufH31Uxi8JbEMa6JBUT-kgOI~0ta2NrRDBlhekXIEvY5y56e1ujOTzEKM93I-7WlI7xc1seRLGAtwi3ngeN8fZGKJ1xSLK9Ktb9aI8svDriEph6U0Fiks6lHA__" alt="" />
+                <div className=''>
+                    <img className='md:w-[500px] h-[407px]' src="https://s3-alpha-sig.figma.com/img/48f1/2ab9/01cece86c715bc1adb0ae9a2e78f72f6?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=enkfzlD205UpPpiqFNGob2zYxTjw~IMjgQtAmGIKyZf76Y7SRZhrK9SEoVi6oOK04gt21zadPu5K5nffDDXCIt6We-6sHzFQHFJBfxpWsrnVqh-ZtTU5yTz8NWVIW5yTHZI-6MkJCxu5CNhDAKho6j9W0OmzF960k5M~Hdpt16Xs4KjktNTh4EpRsi2i~DziDA0xHCt2Yr0b8kDZpskXylBFur2~GufH31Uxi8JbEMa6JBUT-kgOI~0ta2NrRDBlhekXIEvY5y56e1ujOTzEKM93I-7WlI7xc1seRLGAtwi3ngeN8fZGKJ1xSLK9Ktb9aI8svDriEph6U0Fiks6lHA__" alt="" />
                 </div>
                 <div>
                     <h1 className='text-3xl md:text-5xl font-bold max-w-[600px] text-center md:text-start '>If You Need to Customize your product, contact us here.</h1>
                     <p className='text-lg mt-5 max-w-[650px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills.</p>
-                    
+
                     <div className='flex items-center max-w-[600px] gap-5'>
-                    <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Contact Us</button>
-                    <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
-                    
+                        <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Contact Us</button>
+                        <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
+
                     </div>
 
 
                 </div>
-                
+
             </section>
 
 
             {/* collection section  */}
             <section className='grid grid-cols-1 md:grid-cols-2 mt-24 md:mt-36  max-w-[1440px] items-center gap-10 mx-auto px-5 md:px-0'>
-            
+
                 <div>
                     <h1 className='text-3xl md:text-5xl font-bold max-w-[600px] text-center md:text-start '>On The Go Water Purification with unlimited Collection</h1>
                     <p className='text-lg mt-5 max-w-[500px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
-                    
+
                     <div className='flex items-center max-w-[600px] gap-5'>
-                    <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Shop Now</button>
-                    <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
+                        <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Shop Now</button>
+                        <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
                     </div>
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
-                <div className='flex flex-col items-center relative'>
-                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/fb55/409d/1839e8a252444ba7ac7f976fea379e53?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KgRpwDr-agJ0dunEXhNzkz~NTaxcg2A2yOA3Mk1aN6WOZD1naW2P5yKcHl7B84JgQy69BApYYYUIPLamjGmG654GBkV3k9FOfjD--lchRngMHljWmIBr1jAdB-McW7hOCIpkKlFHq7TyWPJomKrvMYByEt-nDJm0v7YawV2jJ-sOZnVx-q54swFq-5uebYoeHXUT1f2O28rCVXmJKwHw2KTG4RWnGZCi3FbCgXRKBW3mNm0nzOLOLwBixF1~BP0O1I7S5niN5MU8lRCNNqoKlmTbARVKj8oqn0M28g4PYyvkMREOaekF7rv-2u7LqZR~EksOkKKt~8vD8Zr958FHxg__" alt="" />
-                    <h1 className='bg-[#EFACE1] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
-                </div>
-                <div className='flex flex-col items-center relative'>
-                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/61f3/66a9/d0281a2fff934a01c9aace58281b3894?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYj2TQNWnpLg8uAWHzZg~c48-IOlTwMCKRvaeAdTged5qGpmbmBj0udD-so5ahui4yFAcwYxRonrXZv1ZvSEQ0psI3gVtOJg2fTeLjqGBxPh62vROvA0NF46JP7Xt7RwZyKfWCgWqoUkuswJSFpv61JRz61ul4kQWId2z~lAV6WnZV-fbANczTk2l5vYvuoCGWMVEjAn5PUsf30bkgqQEakskpLQ1HpDrelU93bsluNEzqqpcj-EE2dxGPf7cSXu-9-pwXVF~hr2WSkv1vyw5QLcEo0QeOWVYVbIaY-w4xUqzrSXUbpE-UUn3L~9u3RMJhPijjeCZB1zeg45Q8ECtw__" alt="" />
-                    <h1 className='bg-[#C88888] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
-                </div>
-                <div className='flex flex-col items-center relative'>
-                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/6e40/9aa2/3438a949b9182738db5a1ab75dbf3a0f?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ytk~JPzDxZOXrMEE19Lw7VuiN2QenrgkLFbSNgPyQAu7nTHYCuHMzIwqNad4xHDrHeQpVtk0ltVqbatHr~XQ8zyOIvHiappc-FQ7UjesgxoTtt-RNXrC0TC~yHGcGnvhZH8il6ni8VAKnEJmVUXjNrIM~XktCmTXwo04O3GFHqSX-NeZN00HtnbGp0YQAWHzN--zEo0hR4WOVvaU~MQoxpdAp3TaBmHt8U65kkG2whu-qGSct29PWrs9KwKLKXy5I1IrJ93V5JXzQYqdMzQh0EHzyho6v3Vcfm3kKfj3s1CzroJnywUZCXXg8wOlGzUjMDicq7YsbJRr6dngIGuj3w__" alt="" />
-                    <h1 className='bg-[#7AAEA5] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
-                </div>
-                <div className='flex flex-col items-center relative'>
-                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/fb55/409d/1839e8a252444ba7ac7f976fea379e53?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KgRpwDr-agJ0dunEXhNzkz~NTaxcg2A2yOA3Mk1aN6WOZD1naW2P5yKcHl7B84JgQy69BApYYYUIPLamjGmG654GBkV3k9FOfjD--lchRngMHljWmIBr1jAdB-McW7hOCIpkKlFHq7TyWPJomKrvMYByEt-nDJm0v7YawV2jJ-sOZnVx-q54swFq-5uebYoeHXUT1f2O28rCVXmJKwHw2KTG4RWnGZCi3FbCgXRKBW3mNm0nzOLOLwBixF1~BP0O1I7S5niN5MU8lRCNNqoKlmTbARVKj8oqn0M28g4PYyvkMREOaekF7rv-2u7LqZR~EksOkKKt~8vD8Zr958FHxg__" alt="" />
-                    <h1 className='bg-[#774464] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
-                </div>
-                <div className='flex flex-col items-center relative'>
-                    <img className='relative z-10  -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/61f3/66a9/d0281a2fff934a01c9aace58281b3894?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYj2TQNWnpLg8uAWHzZg~c48-IOlTwMCKRvaeAdTged5qGpmbmBj0udD-so5ahui4yFAcwYxRonrXZv1ZvSEQ0psI3gVtOJg2fTeLjqGBxPh62vROvA0NF46JP7Xt7RwZyKfWCgWqoUkuswJSFpv61JRz61ul4kQWId2z~lAV6WnZV-fbANczTk2l5vYvuoCGWMVEjAn5PUsf30bkgqQEakskpLQ1HpDrelU93bsluNEzqqpcj-EE2dxGPf7cSXu-9-pwXVF~hr2WSkv1vyw5QLcEo0QeOWVYVbIaY-w4xUqzrSXUbpE-UUn3L~9u3RMJhPijjeCZB1zeg45Q8ECtw__" alt="" />
-                    <h1 className='bg-[#F5CCCC] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
-                </div>
-                <div className='flex flex-col items-center relative'>
-                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/6e40/9aa2/3438a949b9182738db5a1ab75dbf3a0f?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ytk~JPzDxZOXrMEE19Lw7VuiN2QenrgkLFbSNgPyQAu7nTHYCuHMzIwqNad4xHDrHeQpVtk0ltVqbatHr~XQ8zyOIvHiappc-FQ7UjesgxoTtt-RNXrC0TC~yHGcGnvhZH8il6ni8VAKnEJmVUXjNrIM~XktCmTXwo04O3GFHqSX-NeZN00HtnbGp0YQAWHzN--zEo0hR4WOVvaU~MQoxpdAp3TaBmHt8U65kkG2whu-qGSct29PWrs9KwKLKXy5I1IrJ93V5JXzQYqdMzQh0EHzyho6v3Vcfm3kKfj3s1CzroJnywUZCXXg8wOlGzUjMDicq7YsbJRr6dngIGuj3w__" alt="" />
-                    <h1 className='bg-[#595959] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
-                </div>
+                    <div className='flex flex-col items-center relative'>
+                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/fb55/409d/1839e8a252444ba7ac7f976fea379e53?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KgRpwDr-agJ0dunEXhNzkz~NTaxcg2A2yOA3Mk1aN6WOZD1naW2P5yKcHl7B84JgQy69BApYYYUIPLamjGmG654GBkV3k9FOfjD--lchRngMHljWmIBr1jAdB-McW7hOCIpkKlFHq7TyWPJomKrvMYByEt-nDJm0v7YawV2jJ-sOZnVx-q54swFq-5uebYoeHXUT1f2O28rCVXmJKwHw2KTG4RWnGZCi3FbCgXRKBW3mNm0nzOLOLwBixF1~BP0O1I7S5niN5MU8lRCNNqoKlmTbARVKj8oqn0M28g4PYyvkMREOaekF7rv-2u7LqZR~EksOkKKt~8vD8Zr958FHxg__" alt="" />
+                        <h1 className='bg-[#EFACE1] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                    </div>
+                    <div className='flex flex-col items-center relative'>
+                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/61f3/66a9/d0281a2fff934a01c9aace58281b3894?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYj2TQNWnpLg8uAWHzZg~c48-IOlTwMCKRvaeAdTged5qGpmbmBj0udD-so5ahui4yFAcwYxRonrXZv1ZvSEQ0psI3gVtOJg2fTeLjqGBxPh62vROvA0NF46JP7Xt7RwZyKfWCgWqoUkuswJSFpv61JRz61ul4kQWId2z~lAV6WnZV-fbANczTk2l5vYvuoCGWMVEjAn5PUsf30bkgqQEakskpLQ1HpDrelU93bsluNEzqqpcj-EE2dxGPf7cSXu-9-pwXVF~hr2WSkv1vyw5QLcEo0QeOWVYVbIaY-w4xUqzrSXUbpE-UUn3L~9u3RMJhPijjeCZB1zeg45Q8ECtw__" alt="" />
+                        <h1 className='bg-[#C88888] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                    </div>
+                    <div className='flex flex-col items-center relative'>
+                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/6e40/9aa2/3438a949b9182738db5a1ab75dbf3a0f?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ytk~JPzDxZOXrMEE19Lw7VuiN2QenrgkLFbSNgPyQAu7nTHYCuHMzIwqNad4xHDrHeQpVtk0ltVqbatHr~XQ8zyOIvHiappc-FQ7UjesgxoTtt-RNXrC0TC~yHGcGnvhZH8il6ni8VAKnEJmVUXjNrIM~XktCmTXwo04O3GFHqSX-NeZN00HtnbGp0YQAWHzN--zEo0hR4WOVvaU~MQoxpdAp3TaBmHt8U65kkG2whu-qGSct29PWrs9KwKLKXy5I1IrJ93V5JXzQYqdMzQh0EHzyho6v3Vcfm3kKfj3s1CzroJnywUZCXXg8wOlGzUjMDicq7YsbJRr6dngIGuj3w__" alt="" />
+                        <h1 className='bg-[#7AAEA5] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                    </div>
+                    <div className='flex flex-col items-center relative'>
+                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/fb55/409d/1839e8a252444ba7ac7f976fea379e53?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KgRpwDr-agJ0dunEXhNzkz~NTaxcg2A2yOA3Mk1aN6WOZD1naW2P5yKcHl7B84JgQy69BApYYYUIPLamjGmG654GBkV3k9FOfjD--lchRngMHljWmIBr1jAdB-McW7hOCIpkKlFHq7TyWPJomKrvMYByEt-nDJm0v7YawV2jJ-sOZnVx-q54swFq-5uebYoeHXUT1f2O28rCVXmJKwHw2KTG4RWnGZCi3FbCgXRKBW3mNm0nzOLOLwBixF1~BP0O1I7S5niN5MU8lRCNNqoKlmTbARVKj8oqn0M28g4PYyvkMREOaekF7rv-2u7LqZR~EksOkKKt~8vD8Zr958FHxg__" alt="" />
+                        <h1 className='bg-[#774464] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                    </div>
+                    <div className='flex flex-col items-center relative'>
+                        <img className='relative z-10  -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/61f3/66a9/d0281a2fff934a01c9aace58281b3894?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYj2TQNWnpLg8uAWHzZg~c48-IOlTwMCKRvaeAdTged5qGpmbmBj0udD-so5ahui4yFAcwYxRonrXZv1ZvSEQ0psI3gVtOJg2fTeLjqGBxPh62vROvA0NF46JP7Xt7RwZyKfWCgWqoUkuswJSFpv61JRz61ul4kQWId2z~lAV6WnZV-fbANczTk2l5vYvuoCGWMVEjAn5PUsf30bkgqQEakskpLQ1HpDrelU93bsluNEzqqpcj-EE2dxGPf7cSXu-9-pwXVF~hr2WSkv1vyw5QLcEo0QeOWVYVbIaY-w4xUqzrSXUbpE-UUn3L~9u3RMJhPijjeCZB1zeg45Q8ECtw__" alt="" />
+                        <h1 className='bg-[#F5CCCC] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                    </div>
+                    <div className='flex flex-col items-center relative'>
+                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/6e40/9aa2/3438a949b9182738db5a1ab75dbf3a0f?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ytk~JPzDxZOXrMEE19Lw7VuiN2QenrgkLFbSNgPyQAu7nTHYCuHMzIwqNad4xHDrHeQpVtk0ltVqbatHr~XQ8zyOIvHiappc-FQ7UjesgxoTtt-RNXrC0TC~yHGcGnvhZH8il6ni8VAKnEJmVUXjNrIM~XktCmTXwo04O3GFHqSX-NeZN00HtnbGp0YQAWHzN--zEo0hR4WOVvaU~MQoxpdAp3TaBmHt8U65kkG2whu-qGSct29PWrs9KwKLKXy5I1IrJ93V5JXzQYqdMzQh0EHzyho6v3Vcfm3kKfj3s1CzroJnywUZCXXg8wOlGzUjMDicq7YsbJRr6dngIGuj3w__" alt="" />
+                        <h1 className='bg-[#595959] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                    </div>
                 </div>
             </section>
 
@@ -296,20 +296,20 @@ const Home = () => {
 
 
             {/* customer love section  */}
-            <div className='mt-20 md:mt-32 max-w-[1440px] mx-auto'>
+            <div className='mt-20 md:mt-32 p-5 md:p-0 max-w-[1440px] mx-auto'>
                 <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Our Customer Love</h1>
                 <p className=' max-w-[657px] mx-auto text-xl text-center mt-3'>Embarking on Adventures, Building Memories: Where Customer Love Takes Flight with the Travel Guru</p>
 
 
-                    {/* user details  */}
+                {/* user details  */}
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14 md:gap-y-20 mt-10 md:mt-20 mb-20'>
                     <div>
                         <p className='max-w-[350px]'>Discover how our travel guru guided this solo adventurer to off-the-beaten-path destinations, turning a solitary journey into a rich tapestry of experiences.</p>
                         <div className='flex items-center gap-4 mt-4'>
                             <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcSgiG4CPYdRpP7ahhJZaDDHj5iBaOFEFDbGpvLse0trNhfr5A6efOXjA-bfjaNF1XNf0&usqp=CAU" alt="" />
                             <div>
-                            <h1 className='font-medium '>Emily Thompson</h1>
-                        <p>UI Designer</p>
+                                <h1 className='font-medium '>Emily Thompson</h1>
+                                <p>UI Designer</p>
                             </div>
                         </div>
                     </div>
@@ -318,8 +318,8 @@ const Home = () => {
                         <div className='flex items-center gap-4 mt-4'>
                             <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_pgbZQKfFX10RBv-IDDzM9Ety2UpwVp1igauCI1o63eVAOtdvPcf6Ty5XcJq78hc88dk&usqp=CAU" alt="" />
                             <div>
-                            <h1 className='font-medium '>Carlos Rodriguez</h1>
-                        <p>UI Designer</p>
+                                <h1 className='font-medium '>Carlos Rodriguez</h1>
+                                <p>UI Designer</p>
                             </div>
                         </div>
                     </div>
@@ -328,8 +328,8 @@ const Home = () => {
                         <div className='flex items-center gap-4 mt-4'>
                             <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnhymeWKr66OejjS-OpM8VK97n-7E5an4fe__1HaHs9MAPd6zbDfY1uwZUeGoGuUFGGR8&usqp=CAU" alt="" />
                             <div>
-                            <h1 className='font-medium '>Sophia Johnson</h1>
-                        <p>UI Designer</p>
+                                <h1 className='font-medium '>Sophia Johnson</h1>
+                                <p>UI Designer</p>
                             </div>
                         </div>
                     </div>
@@ -338,8 +338,8 @@ const Home = () => {
                         <div className='flex items-center gap-4 mt-4'>
                             <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZA75zaJus0m40dxoToryR3qD-Vo2kr1eAw&usqp=CAU" alt="" />
                             <div>
-                            <h1 className='font-medium '>Raj Kapoor</h1>
-                        <p>UI Designer</p>
+                                <h1 className='font-medium '>Raj Kapoor</h1>
+                                <p>UI Designer</p>
                             </div>
                         </div>
                     </div>
@@ -348,8 +348,8 @@ const Home = () => {
                         <div className='flex items-center gap-4 mt-4'>
                             <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY_UP9cSEjFLqwEVNDqWPhu9lUPLkzzaVpJw&usqp=CAU" alt="" />
                             <div>
-                            <h1 className='font-medium '>Olivia Chen</h1>
-                        <p>UI Designer</p>
+                                <h1 className='font-medium '>Olivia Chen</h1>
+                                <p>UI Designer</p>
                             </div>
                         </div>
                     </div>
@@ -358,13 +358,65 @@ const Home = () => {
                         <div className='flex items-center gap-4 mt-4'>
                             <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcSgiG4CPYdRpP7ahhJZaDDHj5iBaOFEFDbGpvLse0trNhfr5A6efOXjA-bfjaNF1XNf0&usqp=CAU" alt="" />
                             <div>
-                            <h1 className='font-medium '>Marcus Taylor</h1>
-                        <p>UI Designer</p>
+                                <h1 className='font-medium '>Marcus Taylor</h1>
+                                <p>UI Designer</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
+
+
+
+            {/* asked question section  */}
+            <section className='mt-24 md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 md:px-0'>
+            <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Frequently Asked Questions</h1>
+            <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm mt-12 md:mt-20">
+  <input type="radio" name="my-accordion-3" checked="checked" /> 
+  <div className="collapse-title text-xl font-medium">
+  Can I customize my box?
+  </div>
+  <div className="collapse-content"> 
+    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+  </div>
+</div>
+<div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+  Are the products cruelty-free?
+  </div>
+  <div className="collapse-content"> 
+    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+  </div>
+</div>
+<div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+  What if I have allergic reactions?
+  </div>
+  <div className="collapse-content"> 
+    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+  </div>
+</div>
+<div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+  Can I choose my products every month?
+  </div>
+  <div className="collapse-content"> 
+    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+  </div>
+</div>
+<div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+  What if I have allergies?
+  </div>
+  <div className="collapse-content"> 
+    <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
+  </div>
+</div>
+            </section>
         </div>
     );
 };

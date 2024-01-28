@@ -86,20 +86,20 @@ const Home = () => {
 
 
                     <div className=''>
-                        <table className='table w-full '>
-                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                        <table className='table '>
+                            <tr className='text-lg md:text-2xl  border-b-stone-400 border-b font-bold'>
                                 <th></th>
                                 <th className='border-x-slate-300 border-x-2 bg-black text-white text-center'>We</th>
                                 <th className='text-center'>Others</th>
                             </tr>
-                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                            <tr className='text-lg md:text-2xl  border-b-stone-400 border-b font-bold'>
                                 <td >Unparalleled effectiveness</td>
                                 <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
                                 </td>
                                 <td className='border-x-slate-300  w-fit text-4xl relative lg:start-8'><FaCheckCircle />
                                 </td>
                             </tr>
-                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                            <tr className='text-lg md:text-2xl  border-b-stone-400 border-b font-bold'>
                                 <td>No harsh chemicals</td>
                                 <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
                                 </td>
@@ -107,7 +107,7 @@ const Home = () => {
 
                                 </td>
                             </tr>
-                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                            <tr className='text-lg md:text-2xl  border-b-stone-400 border-b font-bold'>
                                 <td>Environment friendly</td>
                                 <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
                                 </td>
@@ -115,7 +115,7 @@ const Home = () => {
 
                                 </td>
                             </tr>
-                            <tr className='text-2xl h-[65px] border-b-stone-400 border-b font-bold'>
+                            <tr className='text-lg md:text-2xl  border-b-stone-400 border-b font-bold'>
                                 <td>High Quality</td>
                                 <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
                                 </td>
@@ -123,7 +123,7 @@ const Home = () => {
 
                                 </td>
                             </tr>
-                            <tr className='text-2xl h-[65px]  font-bold'>
+                            <tr className='text-lg md:text-2xl   font-bold'>
                                 <td>Affordable cost</td>
                                 <td className='border-x-slate-300 border-x-2 w-fit text-4xl relative lg:start-4'><FaCheckCircle />
                                 </td>
@@ -144,9 +144,9 @@ const Home = () => {
 
 
             {/* carrying section  */}
-            <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-36 max-w-[1440px] gap-10 mx-auto px-5 md:px-0'>
+            <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-36 max-w-[1440px] items-center gap-10 mx-auto px-5 md:px-0'>
                 <div>
-                    <h1 className='text-3xl md:text-5xl font-bold max-w-[500px] text-center md:text-start mt-16 md:mt-32 '>You just need these when you travel for easy carrying.</h1>
+                    <h1 className='text-3xl md:text-5xl font-bold max-w-[500px] text-center md:text-start  '>You just need these when you travel for easy carrying.</h1>
                     <p className='text-lg mt-5 max-w-[500px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
                     <div className='flex gap-6 mt-5'>
                     <span className='flex items-center gap-3'>
@@ -158,9 +158,9 @@ const Home = () => {
                     <p className='font-medium'>Cold for 16hr</p>
                     </span>
                     </div>
-                    <div className='flex justify-between items-center max-w-[600px]'>
+                    <div className='md:flex  justify-between items-center max-w-[600px]'>
                     <button className='banner-btn w-full md:w-fit text-[15px] md:font-bold px-9 mt-6'>Buy Now & Get Free a Premium Bag</button>
-                    <p><del className='text-gray-400'>$120.00</del> $100.00</p>
+                    <p className='mt-3 md:mt-0'><del className='text-gray-400'>$120.00</del> $100.00</p>
                     </div>
 
 
@@ -187,7 +187,7 @@ const Home = () => {
                 </div>
                 <div className='md:flex justify-between items-center max-w-[1440px] px-5 md:px-0 mx-auto text-white'>
                     <div className='text-center'>
-                        <p className='max-w-[380px] mb-5'>``Ever since I started using [Product Name], my home has never felt cleaner or fresher. It's a game-changer in the cleaning world!``</p>
+                        <p className='max-w-[380px] mb-5'>``Ever since I started using [Product Name], my home has never felt cleaner or fresher. It`s a game-changer in the cleaning world!``</p>
                         <p className='mb-2'>Alexa M</p>
                         <small>Verified Customer</small>
                     </div>
@@ -204,11 +204,97 @@ const Home = () => {
                     
                 </div>
             </section>
+
+
+            {/* contact us section  */}
+            <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-36 max-w-[1440px] items-center gap-10 mx-auto px-5 md:px-0'>
+            <div className=''>
+                <img className='md:w-[500px] h-[407px]' src="https://s3-alpha-sig.figma.com/img/48f1/2ab9/01cece86c715bc1adb0ae9a2e78f72f6?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=enkfzlD205UpPpiqFNGob2zYxTjw~IMjgQtAmGIKyZf76Y7SRZhrK9SEoVi6oOK04gt21zadPu5K5nffDDXCIt6We-6sHzFQHFJBfxpWsrnVqh-ZtTU5yTz8NWVIW5yTHZI-6MkJCxu5CNhDAKho6j9W0OmzF960k5M~Hdpt16Xs4KjktNTh4EpRsi2i~DziDA0xHCt2Yr0b8kDZpskXylBFur2~GufH31Uxi8JbEMa6JBUT-kgOI~0ta2NrRDBlhekXIEvY5y56e1ujOTzEKM93I-7WlI7xc1seRLGAtwi3ngeN8fZGKJ1xSLK9Ktb9aI8svDriEph6U0Fiks6lHA__" alt="" />
+                </div>
+                <div>
+                    <h1 className='text-3xl md:text-5xl font-bold max-w-[600px] text-center md:text-start '>If You Need to Customize your product, contact us here.</h1>
+                    <p className='text-lg mt-5 max-w-[650px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills.</p>
+                    
+                    <div className='flex items-center max-w-[600px] gap-5'>
+                    <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Contact Us</button>
+                    <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
+                    
+                    </div>
+
+
+                </div>
+                
+            </section>
+
+
+            {/* collection section  */}
+            <section className='grid grid-cols-1 md:grid-cols-2 mt-24 md:mt-36  max-w-[1440px] items-center gap-10 mx-auto px-5 md:px-0'>
+            
+                <div>
+                    <h1 className='text-3xl md:text-5xl font-bold max-w-[600px] text-center md:text-start '>On The Go Water Purification with unlimited Collection</h1>
+                    <p className='text-lg mt-5 max-w-[500px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
+                    
+                    <div className='flex items-center max-w-[600px] gap-5'>
+                    <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Shop Now</button>
+                    <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
+                    </div>
+                </div>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
+                <div className='flex flex-col items-center relative'>
+                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/fb55/409d/1839e8a252444ba7ac7f976fea379e53?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KgRpwDr-agJ0dunEXhNzkz~NTaxcg2A2yOA3Mk1aN6WOZD1naW2P5yKcHl7B84JgQy69BApYYYUIPLamjGmG654GBkV3k9FOfjD--lchRngMHljWmIBr1jAdB-McW7hOCIpkKlFHq7TyWPJomKrvMYByEt-nDJm0v7YawV2jJ-sOZnVx-q54swFq-5uebYoeHXUT1f2O28rCVXmJKwHw2KTG4RWnGZCi3FbCgXRKBW3mNm0nzOLOLwBixF1~BP0O1I7S5niN5MU8lRCNNqoKlmTbARVKj8oqn0M28g4PYyvkMREOaekF7rv-2u7LqZR~EksOkKKt~8vD8Zr958FHxg__" alt="" />
+                    <h1 className='bg-[#EFACE1] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                </div>
+                <div className='flex flex-col items-center relative'>
+                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/61f3/66a9/d0281a2fff934a01c9aace58281b3894?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYj2TQNWnpLg8uAWHzZg~c48-IOlTwMCKRvaeAdTged5qGpmbmBj0udD-so5ahui4yFAcwYxRonrXZv1ZvSEQ0psI3gVtOJg2fTeLjqGBxPh62vROvA0NF46JP7Xt7RwZyKfWCgWqoUkuswJSFpv61JRz61ul4kQWId2z~lAV6WnZV-fbANczTk2l5vYvuoCGWMVEjAn5PUsf30bkgqQEakskpLQ1HpDrelU93bsluNEzqqpcj-EE2dxGPf7cSXu-9-pwXVF~hr2WSkv1vyw5QLcEo0QeOWVYVbIaY-w4xUqzrSXUbpE-UUn3L~9u3RMJhPijjeCZB1zeg45Q8ECtw__" alt="" />
+                    <h1 className='bg-[#C88888] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                </div>
+                <div className='flex flex-col items-center relative'>
+                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/6e40/9aa2/3438a949b9182738db5a1ab75dbf3a0f?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ytk~JPzDxZOXrMEE19Lw7VuiN2QenrgkLFbSNgPyQAu7nTHYCuHMzIwqNad4xHDrHeQpVtk0ltVqbatHr~XQ8zyOIvHiappc-FQ7UjesgxoTtt-RNXrC0TC~yHGcGnvhZH8il6ni8VAKnEJmVUXjNrIM~XktCmTXwo04O3GFHqSX-NeZN00HtnbGp0YQAWHzN--zEo0hR4WOVvaU~MQoxpdAp3TaBmHt8U65kkG2whu-qGSct29PWrs9KwKLKXy5I1IrJ93V5JXzQYqdMzQh0EHzyho6v3Vcfm3kKfj3s1CzroJnywUZCXXg8wOlGzUjMDicq7YsbJRr6dngIGuj3w__" alt="" />
+                    <h1 className='bg-[#7AAEA5] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                </div>
+                <div className='flex flex-col items-center relative'>
+                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/fb55/409d/1839e8a252444ba7ac7f976fea379e53?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KgRpwDr-agJ0dunEXhNzkz~NTaxcg2A2yOA3Mk1aN6WOZD1naW2P5yKcHl7B84JgQy69BApYYYUIPLamjGmG654GBkV3k9FOfjD--lchRngMHljWmIBr1jAdB-McW7hOCIpkKlFHq7TyWPJomKrvMYByEt-nDJm0v7YawV2jJ-sOZnVx-q54swFq-5uebYoeHXUT1f2O28rCVXmJKwHw2KTG4RWnGZCi3FbCgXRKBW3mNm0nzOLOLwBixF1~BP0O1I7S5niN5MU8lRCNNqoKlmTbARVKj8oqn0M28g4PYyvkMREOaekF7rv-2u7LqZR~EksOkKKt~8vD8Zr958FHxg__" alt="" />
+                    <h1 className='bg-[#774464] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                </div>
+                <div className='flex flex-col items-center relative'>
+                    <img className='relative z-10  -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/61f3/66a9/d0281a2fff934a01c9aace58281b3894?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYj2TQNWnpLg8uAWHzZg~c48-IOlTwMCKRvaeAdTged5qGpmbmBj0udD-so5ahui4yFAcwYxRonrXZv1ZvSEQ0psI3gVtOJg2fTeLjqGBxPh62vROvA0NF46JP7Xt7RwZyKfWCgWqoUkuswJSFpv61JRz61ul4kQWId2z~lAV6WnZV-fbANczTk2l5vYvuoCGWMVEjAn5PUsf30bkgqQEakskpLQ1HpDrelU93bsluNEzqqpcj-EE2dxGPf7cSXu-9-pwXVF~hr2WSkv1vyw5QLcEo0QeOWVYVbIaY-w4xUqzrSXUbpE-UUn3L~9u3RMJhPijjeCZB1zeg45Q8ECtw__" alt="" />
+                    <h1 className='bg-[#F5CCCC] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                </div>
+                <div className='flex flex-col items-center relative'>
+                    <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/6e40/9aa2/3438a949b9182738db5a1ab75dbf3a0f?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ytk~JPzDxZOXrMEE19Lw7VuiN2QenrgkLFbSNgPyQAu7nTHYCuHMzIwqNad4xHDrHeQpVtk0ltVqbatHr~XQ8zyOIvHiappc-FQ7UjesgxoTtt-RNXrC0TC~yHGcGnvhZH8il6ni8VAKnEJmVUXjNrIM~XktCmTXwo04O3GFHqSX-NeZN00HtnbGp0YQAWHzN--zEo0hR4WOVvaU~MQoxpdAp3TaBmHt8U65kkG2whu-qGSct29PWrs9KwKLKXy5I1IrJ93V5JXzQYqdMzQh0EHzyho6v3Vcfm3kKfj3s1CzroJnywUZCXXg8wOlGzUjMDicq7YsbJRr6dngIGuj3w__" alt="" />
+                    <h1 className='bg-[#595959] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
+                </div>
+                </div>
+            </section>
+
+
+            {/* key features section  */}
+            <section className=' mt-24 md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 md:px-0'>
+                <h1 className='text-3xl md:text-5xl font-bold  text-center mb-5 '>Key Features</h1>
+                <p className='text-center max-w-[600px] mx-auto'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
+
+                <div className='flex flex-wrap gap-6 justify-center sm:justify-between mt-16'>
+                    <div>
+                        <img src="https://i.ibb.co/SV3x55n/image-44-2.png" alt="" />
+                        <p className='mt-4'>LED Temperature Indicature</p>
+                    </div>
+                    <div>
+                        <img src="https://i.ibb.co/gFmFLq2/image-44-1.png" alt="" />
+                        <p className='mt-4'>LED Temperature Indicature</p>
+                    </div>
+                    <div>
+                        <img src="https://i.ibb.co/HYRRgZw/image-45.png" alt="" />
+                        <p className='mt-4'>LED Temperature Indicature</p>
+                    </div>
+                    <div>
+                        <img src="https://i.ibb.co/TR6g4R5/image-5.png" alt="" />
+                        <p className='mt-4'>LED Temperature Indicature</p>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };
 
 export default Home;
-
-
 

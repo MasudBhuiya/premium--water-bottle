@@ -26,7 +26,7 @@ const Navbar = () => {
       </ul>
       
     </div>
-    <Link to='/' className="btn btn-ghost hover:bg-white text-xl"><h1 className='text-3xl w-full'><FontAwesomeIcon icon={faBottleWater} />𝕭𝖔𝖙𝖙𝖑𝖊 𝖀𝖕 </h1></Link>
+    <Link to='/' className="btn btn-ghost ps-0 hover:bg-white text-xl"><h1 className='text-3xl w-full'><FontAwesomeIcon icon={faBottleWater} />𝕭𝖔𝖙𝖙𝖑𝖊 𝖀𝖕 </h1></Link>
   </div>
   <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

@@ -80,7 +80,7 @@ const Home = () => {
             {/* why choose us section  */}
             <section className='max-w-[1440px] mx-auto'>
                 <h1 className='text-3xl md:text-5xl font-bold max-w-[670px] mx-auto mt-16 md:mt-32 text-center'>Why Choose Our Premium  Bottle?</h1>
-                <div className='grid grid-cols-1 md:grid-cols-2 px-5 md:px-0 gap-10 mt-10 md:mt-20'>
+                <div className='md:flex px-5 md:px-0 gap-10 mt-10 md:mt-20'>
                     <img className='md:w-[400px] lg:w-[571px] h-[571px]' src="https://s3-alpha-sig.figma.com/img/423b/1a7d/196de8517550dd9fe99083315db8f4cb?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mh8F~3YwGr8EWRH1x6BI---rExwn4cDc46~ImHeRadfkCs9OXGzXRoeWjcEAs8gpIb8hwTG0PdZqcX0ZP1pGCXgyhYawDGM1gvCa8LLsZqd6KvLRadt3hVwjd7iTVRWJxKE7HBVAlr5aei5YziT6kunUt9hPN6Eoz3GBHVdLfftri2HJUKfX7d14DoHXFbeFlxOIKj2tGL9zA5Py6cDppDOWrlZMekOKaHTRgHDr-yg14SJtMbVU1qavoy4SvCoU~QL4p8F51d20LtWDsz4t6Ivb9YfyWNw9piYknKeB00uq9rDeKQl6tXd~KVmt-VwQYwa8uzuAVZjNJL2pXGiY8Q__" alt="" />
 
 
@@ -144,10 +144,10 @@ const Home = () => {
 
 
             {/* carrying section  */}
-            <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-36 max-w-[1440px] items-center gap-10 mx-auto px-5 md:px-0'>
-                <div>
-                    <h1 className='text-3xl md:text-5xl font-bold max-w-[500px] text-center md:text-start  '>You just need these when you travel for easy carrying.</h1>
-                    <p className='text-lg mt-5 max-w-[500px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
+            <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center gap-10 mx-auto px-5 md:px-0'>
+                <div className='w-full md:w-2/3'>
+                    <h1 className='text-3xl md:text-5xl font-bold max-w-[800px] text-center md:text-start  '>You just need these when you travel for easy carrying.</h1>
+                    <p className='text-lg mt-5 max-w-[550px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
                     <div className='flex gap-6 mt-5'>
                         <span className='flex items-center gap-3'>
                             <IoSunnyOutline className='text-4xl text-yellow-500' />
@@ -207,13 +207,13 @@ const Home = () => {
 
 
             {/* contact us section  */}
-            <section className='grid grid-cols-1 md:grid-cols-2 mt-12 md:mt-36 max-w-[1440px] items-center gap-10 mx-auto px-5 md:px-0'>
+            <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center gap-20 mx-auto px-5 md:px-0'>
                 <div className=''>
                     <img className='md:w-[500px] h-[407px]' src="https://s3-alpha-sig.figma.com/img/48f1/2ab9/01cece86c715bc1adb0ae9a2e78f72f6?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=enkfzlD205UpPpiqFNGob2zYxTjw~IMjgQtAmGIKyZf76Y7SRZhrK9SEoVi6oOK04gt21zadPu5K5nffDDXCIt6We-6sHzFQHFJBfxpWsrnVqh-ZtTU5yTz8NWVIW5yTHZI-6MkJCxu5CNhDAKho6j9W0OmzF960k5M~Hdpt16Xs4KjktNTh4EpRsi2i~DziDA0xHCt2Yr0b8kDZpskXylBFur2~GufH31Uxi8JbEMa6JBUT-kgOI~0ta2NrRDBlhekXIEvY5y56e1ujOTzEKM93I-7WlI7xc1seRLGAtwi3ngeN8fZGKJ1xSLK9Ktb9aI8svDriEph6U0Fiks6lHA__" alt="" />
                 </div>
-                <div>
-                    <h1 className='text-3xl md:text-5xl font-bold max-w-[600px] text-center md:text-start '>If You Need to Customize your product, contact us here.</h1>
-                    <p className='text-lg mt-5 max-w-[650px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills.</p>
+                <div className='w-full md:w-2/3'>
+                    <h1 className='text-3xl md:text-5xl font-bold max-w-[840px] text-center md:text-start '>If You Need to Customize your product, contact us here.</h1>
+                    <p className='text-lg mt-5 max-w-[850px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills.</p>
 
                     <div className='flex items-center max-w-[600px] gap-5'>
                         <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Contact Us</button>
@@ -232,7 +232,7 @@ const Home = () => {
 
                 <div>
                     <h1 className='text-3xl md:text-5xl font-bold max-w-[600px] text-center md:text-start '>On The Go Water Purification with unlimited Collection</h1>
-                    <p className='text-lg mt-5 max-w-[500px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
+                    <p className='text-lg mt-5 max-w-[580px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
 
                     <div className='flex items-center max-w-[600px] gap-5'>
                         <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Shop Now</button>
@@ -463,9 +463,9 @@ const Home = () => {
 
 
             {/* newsletter section  */}
-            <section className='mt-12 md:mt-36  max-w-[1440px] flex mb-16 justify-center md:justify-between items-center gap-10 mx-auto px-5 md:px-0'>
+            <section className='mt-12 md:mt-36  max-w-[1440px] md:flex mb-16 justify-center md:justify-between items-center gap-10 mx-auto px-5 md:px-0'>
                 <img className='w-full sm:w-[270px] sm:h-[270px]' src="https://s3-alpha-sig.figma.com/img/7762/f7c0/5ec2946c9ec0e797330d219d19d29740?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V8HGBzVdqAkDQXXrwyVyEQbHWZvCOXjgFrPtI-46bo85vIw~f9wBzASnn6utqQx-1sqoP1I9DJhOQwbPIVkSzx1zEBWoEb4An4c7c5rtx3DevgR01eaDHkpv1dm9AzgWCUW7tZ-8LvIRbHVhVUSqKhEd8M8xPE01zRLOzVzZrH2nrl2CF4xa9Wh-qMQ7pyyk4jNrt8YdjYZ7-fqVkui3Xpil0gE27dbkI0mvd6EAbvpm62IDXeZtBqYUB5MGtebkc20TQxiUy8p9qhTfH~bemgIRFsdveinrJsJNFJzDC-AzuslKsWYafW6rYwcbIvhSmJPLLQl2CvIL4P3uO968Ng__" alt="" />
-                <div className='w-full md:w-[40%] items-center text-center'>
+                <div className='w-full md:w-[40%] my-6 items-center text-center'>
                     <h1 className='text-4xl font-semibold mb-2'>Join Our Newsletter</h1>
                     <p>Sign up for deals, new products and promotions</p>
 

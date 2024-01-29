@@ -38,6 +38,20 @@ const Login = () => {
         })
 
     }
+    
+    const {signInwithGoogle} = useContext(AuthContext);
+    const handleGoogle = () =>{
+        signInwithGoogle()
+        .then(result=>{
+            const user = result.user;
+            console.log(user)
+            navigate('/')
+        })
+        .catch(error=>setError(error.message))
+    }
+
+
+
     return (
         <div className="hero min-h-screen px-2 md:px-0">
   <div className="hero-content flex-col justify-between gap-16 lg:flex-row">
@@ -77,7 +91,7 @@ const Login = () => {
         <h1 className="text-center mt-2">OR</h1>
 
         <div>
-            <button className="btn btn-block  mt-4 text-lg text-blue-500 bg-white"><img src="https://i.ibb.co/jkBJkXy/Google-Pay-Logo-wine.png" alt="" />Continue with Google</button>
+            <button onClick={handleGoogle} className="btn btn-block  mt-4 text-lg text-blue-500 bg-white"><img src="https://i.ibb.co/jkBJkXy/Google-Pay-Logo-wine.png" alt="" />Continue with Google</button>
         </div>
       </div>
     </div>

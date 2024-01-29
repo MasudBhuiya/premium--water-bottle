@@ -3,8 +3,18 @@
   import { faBottleWater} from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import { CiUser } from "react-icons/ci";
+import { useContext } from 'react';
+import { AuthContext } from '../../Provider/AuthProvider';
 const Navbar = () => {
+  const {user, logOut} = useContext(AuthContext);
+console.log(user);
+  const handleLogout = ()=>{
+    logOut()
+    .then()
+    .catch(error=>{
+      console.log(error);
+    })
+  }
     return (
         
         <div>
@@ -20,8 +30,8 @@ const Navbar = () => {
         <li><Link to="/shop">Shop</Link></li>
         <li><Link to="/page">Page</Link></li>
         <div className='flex gap-6 mt-3'>
-        <a className=""><CiUser /></a>
     <a ><AiOutlineShoppingCart /></a>
+    {user ? <><button className="btn btn-success text-white" onClick={handleLogout}>LogOut</button></> : <button className="btn btn-success text-white"><Link to='/login'>Login</Link></button>}
         </div>
       </ul>
       
@@ -37,8 +47,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end gap-4 text-2xl hidden lg:flex">
-    <a className=""><CiUser /></a>
     <a ><AiOutlineShoppingCart /></a>
+    {user ? <><button className="btn btn-success text-white" onClick={handleLogout}>LogOut</button></> : <button className="btn btn-success text-white"><Link to='/login'>Login</Link></button>}
   </div>
 </div>
         </div>

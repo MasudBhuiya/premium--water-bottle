@@ -16,6 +16,7 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import Footer from "../../Shared/Footer/Footer";
+import Description from "./Description";
 
 
 const Details = () => {
@@ -24,11 +25,12 @@ const Details = () => {
     const [quantity, setQuantity] = useState(1);
     // const [selectReview, setSelectReview] = useState([]);
     const [singleBottle, setSingleBottle] = useState({})
-    // console.log(selectReview);
+    console.log(singleBottle?.benefits);
     useEffect(() => {
         fetch('/bottles.json')
             .then(res => res.json())
-            .then(data => setBottles(data))
+            .then(data => {setBottles(data)
+            console.log(data);})
     }, [])
 
 
@@ -123,7 +125,7 @@ const Details = () => {
                     </TabList>
 
                     <TabPanel>
-                        <h2>Any content 1</h2>
+                        <Description></Description>
                     </TabPanel>
                     <TabPanel>
 
@@ -160,7 +162,7 @@ const Details = () => {
             >
                 {
                     bottles?.map(bottle => <>
-                    <SwiperSlide>
+                    <SwiperSlide key={bottle.id}>
                     <div className="text-black p-3 bg-[#EBEEEF]">
                 <div className="flex justify-between ">
                     <p className="text-xs bg-white flex items-center rounded px-2 shadow-md shadow-slate-300 font-bold">NEW</p>
@@ -254,7 +256,7 @@ const Details = () => {
             </section>
 
 
-            <Footer></Footer>
+            <Footer>       </Footer>
         </div>
     );
 };

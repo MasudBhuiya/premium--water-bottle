@@ -17,7 +17,11 @@ const Review = ({review}) => {
                         <FaStar></FaStar>
                     </span>
                 <p>{review.review}</p>
+                <div className="flex items-center gap-5">
                 <p className="my-3 font-semibold">{review.timeSpend} ago</p>
+                <p className="font-bold">Like</p>
+                <p className="font-bold">Relpy</p>
+                </div>
             </div>
         </div>
     );

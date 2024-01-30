@@ -11,7 +11,7 @@ const Card = ({ bottle }) => {
                         <IoHeartOutline />
                     </p>
                 </div>
-                <img className="w-[300px] mx-auto" src={bottle.image} alt="" /><br />
+                <img className="w-[300px] mx-auto" src={bottle?.image} alt="" /><br />
                 <button className=' btn btn-outline btn-block rounded-none hover:bg-cyan-900 text-xl '>Add To Cart</button>
             </div>
             <span className="text-lg flex text-yellow-500 gap-[2px] mt-3">
@@ -21,8 +21,8 @@ const Card = ({ bottle }) => {
             <FaStar />
             <FaStar />
             </span>
-            <h1 className="text-xl font-bold text-start mt-2">{bottle.name}</h1>
-            <p className="text-start text-lg font-bold">${bottle.price}</p>
+            <h1 className="text-xl font-bold text-start mt-2">{bottle?.name}</h1>
+            <p className="text-start text-lg font-bold">${bottle?.price}</p>
         </div>
     );
 };

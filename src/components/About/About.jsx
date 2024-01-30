@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div className="">
             <Navbar2></Navbar2>
-            <div className="bg-black h-[728px] font-bold flex flex-col items-center justify-center text-white px-5 md:px-0">
+            <div className="bg-black h-[728px] font-bold flex flex-col items-center justify-center text-white px-5 ">
                 <h1 className="text-4xl md:text-7xl text-center md:-mt-20">Welcome to our bottle up store</h1>
                 <p className="md:max-w-[670px] mx-auto md:text-lg text-center mt-7">A water bottle is a container designed for holding and transporting water. It typically has a narrow neck</p>
                 <div className='md:flex items-center justify-center w-[320px] sm:w-[600px] mx-auto gap-8'>
@@ -31,7 +31,7 @@ const About = () => {
                 <p className='text-lg mt-5 max-w-[800px] mx-auto text-center font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
 
 
-                <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center gap-20 mx-auto px-5 md:px-0'>
+                <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center gap-20 mx-auto px-5 '>
                     <div className=''>
                         <img className='w-full md:w-[500px] h-[407px]' src="https://s3-alpha-sig.figma.com/img/74c2/8c6d/da47ee1338b3923b0fe58f6023759a84?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O3aN1CV0FFzvZoVCRg~-j~aR81V27-WR7dNlpZc-TCGLPlO-eNhLWQ4Vht-gaf5QSVQEWpT4ax6JhP7mW7wn7LSfgcagyFYrIrE6l0CxgoFb5579EhS99LawOQBGE4lqA7EBy9ciTuQ5lRa6ktgf7r32Ax04VeQdzt0TDnGwHfkleBbSNsWYz8STFXSdIT5dsHzvF70I6j88EsGXANtl02c-tKixuBrCQJAAz0r3qDZW7GnaqZVPPQxzVfOJXiq2XBSIVTZqRgWysBIJ7OF3UZSH4Y2VLJ7y6h7wITY7MPHQDjWOOl7r1b~Thz-Ewvi7lbsD5JLVs7Tlw4GGewhZIA__" alt="" />
                     </div>
@@ -48,7 +48,7 @@ const About = () => {
             </section>
 
             {/* shine from section  */}
-            <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center  gap-20 mx-auto px-5 md:px-0'>
+            <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center  gap-20 mx-auto px-5 '>
 
                 <div className='w-full md:w-2/3 flex flex-col items-center md:items-start'>
                     <h1 className='text-3xl md:text-5xl font-bold max-w-[820px] text-center md:text-start '>Shine from inside</h1>
@@ -66,7 +66,7 @@ const About = () => {
 
 
             {/* about details section  */}
-            <section className='flex flex-wrap justify-center md:justify-between mt-16 md:mt-36 max-w-[1440px] items-center gap-20 mx-auto px-5 md:px-0'>
+            <section className='flex flex-wrap justify-center md:justify-between mt-16 md:mt-36 max-w-[1440px] items-center gap-20 mx-auto px-5 '>
                 <div>
                     <BsTruck className='text-6xl' />
                     <h1 className='text-3xl font-medium mt-4'>Free Shipping</h1>
@@ -92,7 +92,7 @@ const About = () => {
 
 
             {/* customer love section  */}
-            <div className='mt-20 md:mt-32 p-5 md:p-0 max-w-[1440px] mx-auto'>
+            <div className='mt-20 md:mt-32 p-5  max-w-[1440px] mx-auto'>
                 <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Our Customer Love</h1>
                 <p className=' max-w-[657px] mx-auto text-xl text-center mt-3'>Embarking on Adventures, Building Memories: Where Customer Love Takes Flight with the Travel Guru</p>
 
@@ -165,7 +165,7 @@ const About = () => {
 
 
             {/* asked question section  */}
-            <section className=' md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 md:px-0'>
+            <section className=' md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 '>
                 <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Frequently Asked Questions</h1>
                 <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm mt-12 md:mt-20">
                     <input type="radio" name="my-accordion-3" checked="checked" />
@@ -216,7 +216,7 @@ const About = () => {
 
 
             {/* newsletter section  */}
-            <section className='mt-12 md:mt-36  max-w-[1440px] md:flex mb-16 justify-center md:justify-between items-center gap-10 mx-auto px-5 md:px-0'>
+            <section className='mt-12 md:mt-36  max-w-[1440px] md:flex mb-16 justify-center md:justify-between items-center gap-10 mx-auto px-5 '>
                 <img className='w-full sm:w-[270px] sm:h-[270px]' src="https://s3-alpha-sig.figma.com/img/7762/f7c0/5ec2946c9ec0e797330d219d19d29740?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V8HGBzVdqAkDQXXrwyVyEQbHWZvCOXjgFrPtI-46bo85vIw~f9wBzASnn6utqQx-1sqoP1I9DJhOQwbPIVkSzx1zEBWoEb4An4c7c5rtx3DevgR01eaDHkpv1dm9AzgWCUW7tZ-8LvIRbHVhVUSqKhEd8M8xPE01zRLOzVzZrH2nrl2CF4xa9Wh-qMQ7pyyk4jNrt8YdjYZ7-fqVkui3Xpil0gE27dbkI0mvd6EAbvpm62IDXeZtBqYUB5MGtebkc20TQxiUy8p9qhTfH~bemgIRFsdveinrJsJNFJzDC-AzuslKsWYafW6rYwcbIvhSmJPLLQl2CvIL4P3uO968Ng__" alt="" />
                 <div className='w-full md:w-[40%] my-6 items-center text-center'>
                     <h1 className='text-4xl font-semibold mb-2'>Join Our Newsletter</h1>

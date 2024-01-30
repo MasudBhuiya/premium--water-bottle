@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div className="bg-black pt-[80px] pb-16 text-white">
-            <div className=" max-w-[1440px]  items-center mx-auto px-5 md:px-0">
+            <div className=" max-w-[1440px]  items-center mx-auto px-5 ">
             <div className="md:flex items-center justify-between mb-[49px]">
             <span className="md:flex items-center gap-8">
             <Link to='/' className="btn btn-ghost ps-0 hover:bg-white text-xl"><h1 className='text-3xl w-full'><FontAwesomeIcon icon={faBottleWater} />𝕭𝖔𝖙𝖙𝖑𝖊 𝖀𝖕 </h1></Link>

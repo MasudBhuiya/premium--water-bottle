@@ -1,9 +1,10 @@
 import { FaStar } from "react-icons/fa";
 import { IoHeartOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 
 const ShopCart = ({bottle}) => {
-    console.log(bottle);
+    // console.log(bottle);
     return (
         <div className="mb-4 md:flex gap-6 items-center">
             <div>
@@ -22,7 +23,7 @@ const ShopCart = ({bottle}) => {
                 <h1 className="font-bold text-xl mt-4 mb-2">{bottle.name}</h1>
                 <p className="text-lg font-semibold mb-4">{bottle.price} <span><del className="text-gray-400 ms-2">$28.00</del></span></p>
                 <p className="max-w-[300px] mb-4">{bottle.details}</p>
-                <button className=' btn btn-outline btn-block bg-cyan-700 text-white rounded-none hover:bg-cyan-900 text-xl '>Add To Cart</button>
+                <Link to={`details/${bottle.id}`}><button  className=' btn btn-outline btn-block bg-cyan-700 text-white rounded-none hover:bg-cyan-900 text-xl '>View Details</button></Link>
                 <p className="flex justify-center items-center gap-2 mt-3"><IoHeartOutline className="text-xl"/> Wishlist</p>
             </div>
         </div>

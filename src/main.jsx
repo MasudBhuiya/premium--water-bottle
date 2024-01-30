@@ -13,6 +13,7 @@ import AuthProvider from './Provider/AuthProvider';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import Details from './components/Details/Details';
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,11 @@ const router = createBrowserRouter([
   },
   {
     path: 'shop',
-    element: <Shop></Shop>
+    element: <Shop></Shop>,
+  },
+  {
+    path: 'shop/details/:id',
+    element: <Details></Details>
   }
 ]);
 

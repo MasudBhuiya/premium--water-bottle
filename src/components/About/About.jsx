@@ -51,7 +51,7 @@ const About = () => {
             <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center  gap-20 mx-auto px-5 md:px-0'>
 
                 <div className='w-full md:w-2/3 flex flex-col items-center md:items-start'>
-                    <h1 className='text-3xl md:text-5xl font-bold max-w-[820px] text-center md:text-start '>Our Story</h1>
+                    <h1 className='text-3xl md:text-5xl font-bold max-w-[820px] text-center md:text-start '>Shine from inside</h1>
                     <p className='text-lg mt-5 max-w-[840px] text-center md:text-start font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck.A water bottle is a container designed for holding and transporting water. It typically has a narrow neckA water bottle is a container designed for holding and transporting water. It typically has a narrow neck.A water bottle is a container designed for holding and transporting water. It typically has a narrow neck.</p>
 
                     <div className='flex items-center max-w-[600px] gap-5'>

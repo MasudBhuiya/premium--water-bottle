@@ -3,7 +3,7 @@
 import { FaStar } from "react-icons/fa";
 
 const Review = ({review}) => {
-    console.log(review);
+    // console.log(review);
     return (
         <div className="md:flex my-10 gap-10">
             <img className="w-12 h-12 rounded-full" src={review?.image} alt="" />

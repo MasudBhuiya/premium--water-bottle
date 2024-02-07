@@ -14,6 +14,8 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Details from './components/Details/Details';
+import PrivateRoute from './components/Route/PrivateRoute';
+import Blog from './components/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -44,9 +46,14 @@ const router = createBrowserRouter([
     element: <Shop></Shop>,
   },
   {
+    path: 'blog',
+    element: <Blog></Blog>
+  },
+  {
     path: 'shop/details/:id',
-    element: <Details></Details>
+    element: <PrivateRoute><Details></Details></PrivateRoute>
   }
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

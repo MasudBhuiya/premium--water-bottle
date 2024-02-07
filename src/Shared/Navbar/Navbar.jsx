@@ -28,7 +28,7 @@ const Navbar = () => {
       <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/shop">Shop</Link></li>
-        <li><Link to="/page">Page</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
         <div className='flex gap-6 mt-3'>
     <a ><AiOutlineShoppingCart /></a>
     {user ? <><button className="btn btn-success text-white" onClick={handleLogout}>LogOut</button></> : <button className="btn btn-success text-white"><Link to='/login'>Login</Link></button>}
@@ -39,11 +39,11 @@ const Navbar = () => {
     <Link to='/' className="btn btn-ghost ps-0 hover:bg-white text-xl"><h1 className='text-3xl w-full'><FontAwesomeIcon icon={faBottleWater} />𝕭𝖔𝖙𝖙𝖑𝖊 𝖀𝖕 </h1></Link>
   </div>
   <div className="navbar-end hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal font-bold px-1">
     <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/shop">Shop</Link></li>
-        <li><Link to="/page">Page</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
     </ul>
   </div>
   <div className="navbar-end gap-4 text-2xl hidden lg:flex">

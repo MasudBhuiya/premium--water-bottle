@@ -6,6 +6,10 @@ import { RxCrossCircled } from "react-icons/rx";
 import { IoSunnyOutline } from "react-icons/io5";
 import { MdOutlineSevereCold } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+import Newsletter from '../../../Shared/Newsletter';
+import Customers from '../../../Shared/Customers';
+import Questions from '../../../Shared/Questions';
 
 const Home = () => {
     const [bottles, setBottles] = useState([]);
@@ -34,7 +38,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div style={{ borderRadius: '0 120px 0 0' }} className=' md:bg-cyan-800 w-[314px] h-[517px] flex items-center relative'>
-                    <img className='h-[440px] relative md:end-32' src="https://s3-alpha-sig.figma.com/img/b158/e31b/869865cc061ba6a0eabf8e053fadeaec?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T-sLK9OdPOLLdGXkMF7ZL9npKO1k9Ov05Oc8UYePe2ImUVrBHfVNAygeee4d2mkbIWYGAIi4zKWvusnv8MpI-b0cfFf-pzTkqD2lsZslm3JzxvkGhy28Bf2UcupJBpJRgckrQxdSrpzbsMPFzd4yGx0S0MAIxiBVb998-tdFOQS-H-7-5sdYG8FnVkhOP3Ij9fOP6HcFocZ4yUH6xdD6Me0dgicHTBluqSphy7BMPCBD3NCtHI0nx6atnCDoeRy70ELsYT4y5BnyD6sG3wC66OYFyVR7JAgZ-PvzD7UZEiohuobT-JNtlbH5vgmhjeQGSfiOpqUKN2hwoo63mBfAEw__" alt="" />
+                    <img className='h-[440px] relative md:end-32' src="https://i.ibb.co/nzSgM4C/image-20.png" alt="" />
                 </div>
             </div>
 
@@ -81,7 +85,7 @@ const Home = () => {
             <section className='max-w-[1440px] mx-auto'>
                 <h1 className='text-3xl md:text-5xl font-bold max-w-[670px] mx-auto mt-16 md:mt-32 text-center'>Why Choose Our Premium  Bottle?</h1>
                 <div className='md:flex px-5  gap-10 mt-10 md:mt-20'>
-                    <img className='md:w-[400px] lg:w-[571px] h-[571px]' src="https://s3-alpha-sig.figma.com/img/423b/1a7d/196de8517550dd9fe99083315db8f4cb?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Mh8F~3YwGr8EWRH1x6BI---rExwn4cDc46~ImHeRadfkCs9OXGzXRoeWjcEAs8gpIb8hwTG0PdZqcX0ZP1pGCXgyhYawDGM1gvCa8LLsZqd6KvLRadt3hVwjd7iTVRWJxKE7HBVAlr5aei5YziT6kunUt9hPN6Eoz3GBHVdLfftri2HJUKfX7d14DoHXFbeFlxOIKj2tGL9zA5Py6cDppDOWrlZMekOKaHTRgHDr-yg14SJtMbVU1qavoy4SvCoU~QL4p8F51d20LtWDsz4t6Ivb9YfyWNw9piYknKeB00uq9rDeKQl6tXd~KVmt-VwQYwa8uzuAVZjNJL2pXGiY8Q__" alt="" />
+                    <img className='md:w-[400px] lg:w-[571px] h-[571px]' src="https://i.ibb.co/fqcKwWs/Rectangle-1.png" alt="" />
 
 
 
@@ -133,7 +137,8 @@ const Home = () => {
                             </tr>
                         </table>
 
-                        <button className=' btn bg-black btn-block rounded-none h-16 hover:bg-slate-900 mt-7 text-xl text-white'>Shop Now</button>
+                        <Link to="/shop"><button className=' btn bg-black btn-block rounded-none h-16 hover:bg-slate-900 mt-7 text-xl text-white'>Shop Now</button>
+                        </Link>
                         <div className='flex mt-5 items-center gap-5'>
                             <img className='rounded-full w-20' src="https://i.ibb.co/vjmgn3L/Screenshot-2024-01-28-172025.png" alt="" />
                             <p className='text-xl'>Try it risk-free for 30 days. If you`re not totally in love with the product, we will refund you 100%.</p>
@@ -166,7 +171,7 @@ const Home = () => {
 
                 </div>
                 <div className='flex md:justify-end'>
-                    <img className='md:w-[400px] lg:w-[571px] max-h-[571px] ' src="https://s3-alpha-sig.figma.com/img/3a60/0150/7241fc9e7a98aa6253da31d9891baa38?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvfSObkguNcqDnMir8Z7nbmjJa3gHVdOETFboNXXavl0lbnRZ8y0cpUF7DZOfL78m79DPmJNm7PK-BbleLj5xPqGaLhBZP7GQc9d~faovf-m4PnSKNHfR1PzZEGWPYPNgu32PGwGduQ6N0zI6H7N5VjBgCL9aPm-oSk5Ne7dOnMSnWOKewB001PLOFu1ZZdPOrmokfvR2xBuJjjWw6RI6kUGN~lqdwmvd65U0bBZ4wNeLJJXHej5r2ee6AVjmewL0xTkQsXnXDMLceL2a5BvtCzx3VI4LiqB63lZIPp3BfokONrq669LRKuFdeawtKN6c6L8SlekorfNSgXOyTICVg__" alt="" />
+                    <img className='md:w-[400px] lg:w-[571px] max-h-[571px] ' src="https://i.ibb.co/0jCwsKk/image-30.png" alt="" />
                 </div>
             </section>
 
@@ -209,7 +214,7 @@ const Home = () => {
             {/* contact us section  */}
             <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center gap-20 mx-auto px-5 '>
                 <div className=''>
-                    <img className='md:w-[500px] h-[407px]' src="https://s3-alpha-sig.figma.com/img/48f1/2ab9/01cece86c715bc1adb0ae9a2e78f72f6?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=enkfzlD205UpPpiqFNGob2zYxTjw~IMjgQtAmGIKyZf76Y7SRZhrK9SEoVi6oOK04gt21zadPu5K5nffDDXCIt6We-6sHzFQHFJBfxpWsrnVqh-ZtTU5yTz8NWVIW5yTHZI-6MkJCxu5CNhDAKho6j9W0OmzF960k5M~Hdpt16Xs4KjktNTh4EpRsi2i~DziDA0xHCt2Yr0b8kDZpskXylBFur2~GufH31Uxi8JbEMa6JBUT-kgOI~0ta2NrRDBlhekXIEvY5y56e1ujOTzEKM93I-7WlI7xc1seRLGAtwi3ngeN8fZGKJ1xSLK9Ktb9aI8svDriEph6U0Fiks6lHA__" alt="" />
+                    <img className='md:w-[500px] h-[407px]' src="https://i.ibb.co/Tm1RGDb/Rectangle-6113.png" alt="" />
                 </div>
                 <div className='w-full md:w-2/3'>
                     <h1 className='text-3xl md:text-5xl font-bold max-w-[840px] text-center md:text-start '>If You Need to Customize your product, contact us here.</h1>
@@ -235,33 +240,33 @@ const Home = () => {
                     <p className='text-lg mt-5 max-w-[580px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. </p>
 
                     <div className='flex items-center max-w-[600px] gap-5'>
-                        <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Shop Now</button>
+                        <Link to="/shop"><button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Shop Now</button></Link>
                         <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
                     </div>
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
                     <div className='flex flex-col items-center relative'>
-                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/fb55/409d/1839e8a252444ba7ac7f976fea379e53?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KgRpwDr-agJ0dunEXhNzkz~NTaxcg2A2yOA3Mk1aN6WOZD1naW2P5yKcHl7B84JgQy69BApYYYUIPLamjGmG654GBkV3k9FOfjD--lchRngMHljWmIBr1jAdB-McW7hOCIpkKlFHq7TyWPJomKrvMYByEt-nDJm0v7YawV2jJ-sOZnVx-q54swFq-5uebYoeHXUT1f2O28rCVXmJKwHw2KTG4RWnGZCi3FbCgXRKBW3mNm0nzOLOLwBixF1~BP0O1I7S5niN5MU8lRCNNqoKlmTbARVKj8oqn0M28g4PYyvkMREOaekF7rv-2u7LqZR~EksOkKKt~8vD8Zr958FHxg__" alt="" />
+                        <img className='relative z-10 -bottom-48 md:-bottom-32 -mt-24' src="https://i.ibb.co/FXYXvtZ/image-55.png" alt="" />
                         <h1 className='bg-[#EFACE1] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
                     </div>
                     <div className='flex flex-col items-center relative'>
-                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/61f3/66a9/d0281a2fff934a01c9aace58281b3894?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYj2TQNWnpLg8uAWHzZg~c48-IOlTwMCKRvaeAdTged5qGpmbmBj0udD-so5ahui4yFAcwYxRonrXZv1ZvSEQ0psI3gVtOJg2fTeLjqGBxPh62vROvA0NF46JP7Xt7RwZyKfWCgWqoUkuswJSFpv61JRz61ul4kQWId2z~lAV6WnZV-fbANczTk2l5vYvuoCGWMVEjAn5PUsf30bkgqQEakskpLQ1HpDrelU93bsluNEzqqpcj-EE2dxGPf7cSXu-9-pwXVF~hr2WSkv1vyw5QLcEo0QeOWVYVbIaY-w4xUqzrSXUbpE-UUn3L~9u3RMJhPijjeCZB1zeg45Q8ECtw__" alt="" />
+                        <img className='relative z-10 -bottom-48 md:-bottom-32 -mt-24' src="https://i.ibb.co/TW9Cyk7/image-59.png" alt="" />
                         <h1 className='bg-[#C88888] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
                     </div>
                     <div className='flex flex-col items-center relative'>
-                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/6e40/9aa2/3438a949b9182738db5a1ab75dbf3a0f?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ytk~JPzDxZOXrMEE19Lw7VuiN2QenrgkLFbSNgPyQAu7nTHYCuHMzIwqNad4xHDrHeQpVtk0ltVqbatHr~XQ8zyOIvHiappc-FQ7UjesgxoTtt-RNXrC0TC~yHGcGnvhZH8il6ni8VAKnEJmVUXjNrIM~XktCmTXwo04O3GFHqSX-NeZN00HtnbGp0YQAWHzN--zEo0hR4WOVvaU~MQoxpdAp3TaBmHt8U65kkG2whu-qGSct29PWrs9KwKLKXy5I1IrJ93V5JXzQYqdMzQh0EHzyho6v3Vcfm3kKfj3s1CzroJnywUZCXXg8wOlGzUjMDicq7YsbJRr6dngIGuj3w__" alt="" />
+                        <img className='relative z-10 -bottom-48 md:-bottom-32 -mt-24' src="https://i.ibb.co/ThWXZ4F/image-61.png" alt="" />
                         <h1 className='bg-[#7AAEA5] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
                     </div>
                     <div className='flex flex-col items-center relative'>
-                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/fb55/409d/1839e8a252444ba7ac7f976fea379e53?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KgRpwDr-agJ0dunEXhNzkz~NTaxcg2A2yOA3Mk1aN6WOZD1naW2P5yKcHl7B84JgQy69BApYYYUIPLamjGmG654GBkV3k9FOfjD--lchRngMHljWmIBr1jAdB-McW7hOCIpkKlFHq7TyWPJomKrvMYByEt-nDJm0v7YawV2jJ-sOZnVx-q54swFq-5uebYoeHXUT1f2O28rCVXmJKwHw2KTG4RWnGZCi3FbCgXRKBW3mNm0nzOLOLwBixF1~BP0O1I7S5niN5MU8lRCNNqoKlmTbARVKj8oqn0M28g4PYyvkMREOaekF7rv-2u7LqZR~EksOkKKt~8vD8Zr958FHxg__" alt="" />
+                        <img className='relative z-10 -bottom-48 md:-bottom-32 -mt-24' src="https://i.ibb.co/q9tk8CK/image-55-1.png" alt="" />
                         <h1 className='bg-[#774464] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
                     </div>
                     <div className='flex flex-col items-center relative'>
-                        <img className='relative z-10  -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/61f3/66a9/d0281a2fff934a01c9aace58281b3894?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYj2TQNWnpLg8uAWHzZg~c48-IOlTwMCKRvaeAdTged5qGpmbmBj0udD-so5ahui4yFAcwYxRonrXZv1ZvSEQ0psI3gVtOJg2fTeLjqGBxPh62vROvA0NF46JP7Xt7RwZyKfWCgWqoUkuswJSFpv61JRz61ul4kQWId2z~lAV6WnZV-fbANczTk2l5vYvuoCGWMVEjAn5PUsf30bkgqQEakskpLQ1HpDrelU93bsluNEzqqpcj-EE2dxGPf7cSXu-9-pwXVF~hr2WSkv1vyw5QLcEo0QeOWVYVbIaY-w4xUqzrSXUbpE-UUn3L~9u3RMJhPijjeCZB1zeg45Q8ECtw__" alt="" />
+                        <img className='relative z-10  -bottom-48 md:-bottom-32 -mt-24' src="https://i.ibb.co/9H1cQvj/image-59-1.png" alt="" />
                         <h1 className='bg-[#F5CCCC] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
                     </div>
                     <div className='flex flex-col items-center relative'>
-                        <img className='relative z-10 -bottom-48 md:-bottom-36 -mt-24' src="https://s3-alpha-sig.figma.com/img/6e40/9aa2/3438a949b9182738db5a1ab75dbf3a0f?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ytk~JPzDxZOXrMEE19Lw7VuiN2QenrgkLFbSNgPyQAu7nTHYCuHMzIwqNad4xHDrHeQpVtk0ltVqbatHr~XQ8zyOIvHiappc-FQ7UjesgxoTtt-RNXrC0TC~yHGcGnvhZH8il6ni8VAKnEJmVUXjNrIM~XktCmTXwo04O3GFHqSX-NeZN00HtnbGp0YQAWHzN--zEo0hR4WOVvaU~MQoxpdAp3TaBmHt8U65kkG2whu-qGSct29PWrs9KwKLKXy5I1IrJ93V5JXzQYqdMzQh0EHzyho6v3Vcfm3kKfj3s1CzroJnywUZCXXg8wOlGzUjMDicq7YsbJRr6dngIGuj3w__" alt="" />
+                        <img className='relative z-10 -bottom-48 md:-bottom-32 -mt-24' src="https://i.ibb.co/wc9QXp8/image-61-1.png" alt="" />
                         <h1 className='bg-[#595959] relative  rounded-full h-72 md:h-40 w-72 md:w-40'></h1>
                     </div>
                 </div>
@@ -295,128 +300,13 @@ const Home = () => {
 
 
 
-            {/* customer love section  */}
-            <div className='mt-20 md:mt-32 p-5  max-w-[1440px] mx-auto'>
-                <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Our Customer Love</h1>
-                <p className=' max-w-[657px] mx-auto text-xl text-center mt-3'>Embarking on Adventures, Building Memories: Where Customer Love Takes Flight with the Travel Guru</p>
-
-
-                {/* user details  */}
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14 md:gap-y-20 mt-10 md:mt-20 mb-20'>
-                    <div>
-                        <p className='max-w-[350px]'>Discover how our travel guru guided this solo adventurer to off-the-beaten-path destinations, turning a solitary journey into a rich tapestry of experiences.</p>
-                        <div className='flex items-center gap-4 mt-4'>
-                            <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcSgiG4CPYdRpP7ahhJZaDDHj5iBaOFEFDbGpvLse0trNhfr5A6efOXjA-bfjaNF1XNf0&usqp=CAU" alt="" />
-                            <div>
-                                <h1 className='font-medium '>Emily Thompson</h1>
-                                <p>UI Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p className='max-w-[350px]'>Explore the testimonials of a family who found the perfect balance of fun and relaxation, thanks to the tailored recommendations and insights provided by our travel guru.</p>
-                        <div className='flex items-center gap-4 mt-4'>
-                            <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_pgbZQKfFX10RBv-IDDzM9Ety2UpwVp1igauCI1o63eVAOtdvPcf6Ty5XcJq78hc88dk&usqp=CAU" alt="" />
-                            <div>
-                                <h1 className='font-medium '>Carlos Rodriguez</h1>
-                                <p>UI Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p className='max-w-[350px]'>Hear from a couple who transformed their vacation into a romantic escapade, with the travel guru`s expertise leading them to the most enchanting and intimate destinations.</p>
-                        <div className='flex items-center gap-4 mt-4'>
-                            <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnhymeWKr66OejjS-OpM8VK97n-7E5an4fe__1HaHs9MAPd6zbDfY1uwZUeGoGuUFGGR8&usqp=CAU" alt="" />
-                            <div>
-                                <h1 className='font-medium '>Sophia Johnson</h1>
-                                <p>UI Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p className='max-w-[350px]'>Delve into the story of a food enthusiast who experienced the world`s flavors with guidance from our travel guru, discovering hidden culinary gems and savoring unforgettable tastes.</p>
-                        <div className='flex items-center gap-4 mt-4'>
-                            <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXZA75zaJus0m40dxoToryR3qD-Vo2kr1eAw&usqp=CAU" alt="" />
-                            <div>
-                                <h1 className='font-medium '>Raj Kapoor</h1>
-                                <p>UI Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p className='max-w-[350px]'>Learn how a history enthusiast immersed themselves in the rich tapestry of cultures and histories, with our travel guru`s curated itineraries providing a deep and meaningful exploration.</p>
-                        <div className='flex items-center gap-4 mt-4'>
-                            <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY_UP9cSEjFLqwEVNDqWPhu9lUPLkzzaVpJw&usqp=CAU" alt="" />
-                            <div>
-                                <h1 className='font-medium '>Olivia Chen</h1>
-                                <p>UI Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <p className='max-w-[350px]'>Follow the journey of a budget-conscious traveler who uncovered affordable yet incredible destinations and activities, proving that memorable adventures need not break the bank.</p>
-                        <div className='flex items-center gap-4 mt-4'>
-                            <img className='w-16 rounded-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcSgiG4CPYdRpP7ahhJZaDDHj5iBaOFEFDbGpvLse0trNhfr5A6efOXjA-bfjaNF1XNf0&usqp=CAU" alt="" />
-                            <div>
-                                <h1 className='font-medium '>Marcus Taylor</h1>
-                                <p>UI Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {/* customers section  */}
+            <Customers></Customers>
 
 
 
             {/* asked question section  */}
-            <section className=' md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 '>
-                <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Frequently Asked Questions</h1>
-                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm mt-12 md:mt-20">
-                    <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div className="collapse-title text-xl font-medium">
-                        Can I customize my box?
-                    </div>
-                    <div className="collapse-content">
-                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-                    </div>
-                </div>
-                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
-                    <input type="radio" name="my-accordion-3" />
-                    <div className="collapse-title text-xl font-medium">
-                        Are the products cruelty-free?
-                    </div>
-                    <div className="collapse-content">
-                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-                    </div>
-                </div>
-                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
-                    <input type="radio" name="my-accordion-3" />
-                    <div className="collapse-title text-xl font-medium">
-                        What if I have allergic reactions?
-                    </div>
-                    <div className="collapse-content">
-                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-                    </div>
-                </div>
-                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
-                    <input type="radio" name="my-accordion-3" />
-                    <div className="collapse-title text-xl font-medium">
-                        Can I choose my products every month?
-                    </div>
-                    <div className="collapse-content">
-                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-                    </div>
-                </div>
-                <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm">
-                    <input type="radio" name="my-accordion-3" />
-                    <div className="collapse-title text-xl font-medium">
-                        What if I have allergies?
-                    </div>
-                    <div className="collapse-content">
-                        <p>Currently, our boxes come with a pre-selected set of items. However, we`re working on offering customizable options soon. Discover the ultimate collection of premium makeup essentials, all encased in one elegant box. Whether you`re a makeup enthusiast or just starting out, our curated Makeup Box is your perfect companion for all occasions.</p>
-                    </div>
-                </div>
-            </section>
+            <Questions></Questions>
 
 
             {/* latest update section  */}
@@ -430,7 +320,7 @@ const Home = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2'>
             <section className='md:flex mt-12 md:mt-20 max-w-[1440px] items-center gap-8 mx-auto '>
                 <div className=''>
-                    <img className='md:w-[250px] w-full h-[248px]' src="https://s3-alpha-sig.figma.com/img/714d/63b0/f9b7bc10494207a37a2e11e216513a71?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H6wmbdBTEZdZlWd1z3PzPNarIIS9jFl4mYH21L62H5IANeOe36aFzJUmvxhhyp5lLfH9haKog~pUPa8-lG7xeBEcoS8eKjVOGwvimK2mVRqgz1d1F3WX92FNe7VVp~xlk8QcPQEhJtWP2n0Tgaepw7pjwCPkxEzmoxKoAzH3lmHT8caHMqZIRRjJFuzC4YBogMP6uw~TSuKjy-ky3ry87KW6YH61Px6HOhiMIGOzM7TWMOSgN~QIwz72x-GHK~BU1F4OGzaneGcx~LQ-E5eylu1B5DFprrjXDz64aWPZLsYEztRkvFDA5V96m-ocHvtpzmLeyipmyB1WxLOlH0Nuzg__" alt="" />
+                    <img className='md:w-[250px] w-full h-[248px]' src="https://i.ibb.co/5WkFQp3/Rectangle-6112.png" alt="" />
                 </div>
                 <div>
                     <h1 className='text-2xl md:text-2xl  font-bold max-w-[400px] text-center md:text-start '>A water bottle is a container designed for holding.</h1>
@@ -444,7 +334,7 @@ const Home = () => {
             </section>
             <section className='md:flex mt-12 md:mt-20 max-w-[1440px] items-center gap-8 mx-auto '>
                 <div className=''>
-                    <img className='md:w-[250px] w-full h-[248px]' src="https://s3-alpha-sig.figma.com/img/e3b0/9ac6/c4616824006bf4122556f8eb3b1189cf?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BW04MpbhJZa-KpzVFo6VAz5Uk1tqgQZfUhGHKiC3SNi32SergpS-Y-nL~ZLWruqQtG~QuSCMtLk8BTZiyeNyG2ZjYGTF522zKnl9T03KAZNbQenZD1s7Fy6ufaQU39NhyQW88l0jCvZtI4QC~Cvr3AxQTEoS36zDj6MFOcV1sx7TM6XMQz0sLailVfUShN280eIK1h2U-kZ1wp2~6X6uzz9A5ZtEkrbuOvOaNwjhFPRST6iW4-eIVAPY19~TiCyxdFrgp5BlNzPeW7FF9hdBLt2BBM2Gqq-jEKQedBybRuI6QyGkE8ZKEVjmQDipag5gloaUvpbzveSd8Rc88QLqIg__" alt="" />
+                    <img className='md:w-[250px] w-full h-[248px]' src="https://i.ibb.co/f9MQBfn/Rectangle-6112-1.png" alt="" />
                 </div>
                 <div>
                     <h1 className='text-2xl md:text-2xl  font-bold max-w-[400px] text-center md:text-start '>A water bottle is a container designed for holding.</h1>
@@ -463,18 +353,7 @@ const Home = () => {
 
 
             {/* newsletter section  */}
-            <section className='mt-12 md:mt-36  max-w-[1440px] md:flex mb-16 justify-center md:justify-between items-center gap-10 mx-auto px-5 '>
-                <img className='w-full sm:w-[270px] sm:h-[270px]' src="https://s3-alpha-sig.figma.com/img/7762/f7c0/5ec2946c9ec0e797330d219d19d29740?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V8HGBzVdqAkDQXXrwyVyEQbHWZvCOXjgFrPtI-46bo85vIw~f9wBzASnn6utqQx-1sqoP1I9DJhOQwbPIVkSzx1zEBWoEb4An4c7c5rtx3DevgR01eaDHkpv1dm9AzgWCUW7tZ-8LvIRbHVhVUSqKhEd8M8xPE01zRLOzVzZrH2nrl2CF4xa9Wh-qMQ7pyyk4jNrt8YdjYZ7-fqVkui3Xpil0gE27dbkI0mvd6EAbvpm62IDXeZtBqYUB5MGtebkc20TQxiUy8p9qhTfH~bemgIRFsdveinrJsJNFJzDC-AzuslKsWYafW6rYwcbIvhSmJPLLQl2CvIL4P3uO968Ng__" alt="" />
-                <div className='w-full md:w-[40%] my-6 items-center text-center'>
-                    <h1 className='text-4xl font-semibold mb-2'>Join Our Newsletter</h1>
-                    <p>Sign up for deals, new products and promotions</p>
-
-                    <input className='w-10/12 py-2 relative md:-start-5 mt-5' type="email" name="" placeholder='Enter your email' id="" />
-                    <input type="submit" name="" id="" />
-                    <hr className='border-1 border-gray-400' />
-                </div>
-                <img className='w-full sm:w-[270px] sm:h-[270px]' src="https://s3-alpha-sig.figma.com/img/96ba/f961/b99e17ef820e5d8dba250d7ba56e90d6?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M05ySDY-qCvzu282e4aeQv9TOdlAxC8i4M4Jxy2k2V45DAIHZUVTwCqFnWkOekSirXYT6tSa-L49GlrdWmMR-co~0I0M4I0oEcy9WIOUP~LDeLlhxUq7arYschu0z9Jv0mbV4Pg8zBzeNXJzMut~miOsH-fMVxZ8m2lI-1Xl2ruCeM2e5qV1GpMpN0PNG2NU~KUCre8N5CfedMB87-3kroHIrGjHoobvj-SCsP8m7Jy57Spj-kcERqAgGjuDTxijyrlsUTd-5Aw~EXBNfFzKuK3D8W7vxghgXq5OTlvcZbEVbvnERXhM~55xqngDebCV4fmTDsOs8UDhiYM8jvFZxA__" alt="" />
-            </section>
+            <Newsletter></Newsletter>
         </div>
     );
 };

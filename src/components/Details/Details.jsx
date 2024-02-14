@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { FaMinus, FaPlus, FaStar } from "react-icons/fa";
 import { IoHeartOutline } from "react-icons/io5";
@@ -19,16 +19,19 @@ import Footer from "../../Shared/Footer/Footer";
 import Description from "./Description";
 import Newsletter from "../../Shared/Newsletter";
 import Questions from "../../Shared/Questions";
+import Swal from "sweetalert2";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 
 const Details = () => {
     const { id } = useParams();
     const [bottles, setBottles] = useState([]);
-    const [quantity, setQuantity] = useState(1);
+    const [myQuantity, setMyQuantity] = useState(1);
     const [active, setActive] = useState(false)
     // const [selectReview, setSelectReview] = useState([]);
     const [singleBottle, setSingleBottle] = useState({})
     // console.log(singleBottle?.benefits);
+    const {user} = useContext(AuthContext)
     useEffect(() => {
         fetch('/bottles.json')
             .then(res => res.json())
@@ -45,21 +48,42 @@ const Details = () => {
     // console.log(active);
     const plus = () => {
 
-        let total = quantity + 1;
-        setQuantity(total);
+        let total = myQuantity + 1;
+        setMyQuantity(total);
     }
     const minus = () => {
-        if (quantity == 0) {
-            setQuantity(0)
+        if (myQuantity == 1) {
+            setMyQuantity(1)
         }
         else {
-            let minustotal = quantity - 1;
-            setQuantity(minustotal);
+            let minustotal = myQuantity - 1;
+            setMyQuantity(minustotal);
         }
     }
 
-   
+   const handleAddBottle = (bottle) =>{
 
+    console.log(bottle);
+    const datas = {brand: bottle.brand, capacity: bottle.capacity, color: bottle.color, discount: bottle.discount, image: bottle.image, material: bottle.material, name: bottle.name, price: bottle.price, rating: bottle.rating , email: user?.email, myQuantity: myQuantity }
+        fetch('http://localhost:5000/bottles',{
+       method: 'POST',
+      headers: {
+        'content-type' : 'application/json'
+      },
+      body: JSON.stringify(datas)
+      })
+      .then(res=> res.json())
+        .then(data => {
+            console.log(data);
+            Swal.fire({
+                      position: 'top-end',
+                      icon: 'success',
+                      title: 'Your bottle has been saved',
+                      showConfirmButton: false,
+                      timer: 1500
+                    })
+        })
+   }
 
     return (
         <div>
@@ -108,12 +132,12 @@ const Details = () => {
                     <div className="flex items-center gap-5 mb-5">
                         <div className="bg-base-200 flex items-center gap-3 w-fit p-[10px]">
                             <FaMinus onClick={minus}></FaMinus>
-                            <p className="font-semibold w-[18px]">{quantity}</p>
+                            <p className="font-semibold w-[18px]">{myQuantity}</p>
                             <FaPlus onClick={plus}></FaPlus>
                         </div>
                         <p className="flex justify-center  w-full gap-2 border border-gray-950 py-2"><IoHeartOutline className="text-xl" /> Wishlist</p>
                     </div>
-                    <Link to={`details/${singleBottle?.id}`}><button className=' btn btn-outline btn-block bg-cyan-700 text-white rounded-none hover:bg-cyan-900 text-xl '>Add to Cart</button></Link>
+                    <Link><button onClick={()=> handleAddBottle(singleBottle)} className=' btn btn-outline btn-block bg-cyan-700 text-white rounded-none hover:bg-cyan-900 text-xl '>Add to Cart</button></Link>
 
                 </div>
             </div>
@@ -123,8 +147,8 @@ const Details = () => {
                 <Tabs>
                     <TabList>
                         
-                        <Tab><p onClick={()=>setActive(!active)} className={`font-bold ${active == true ? "text-black": "text-blue-500"}`}>Description</p></Tab>
-                        <Tab><p onClick={()=>setActive(!active)} className={`font-bold ${active == true ? "text-blue-500": "text-black"}`}>Reviews</p></Tab>
+                        <Tab><p onClick={()=>setActive(!active)} className={`font-bold text-xl ${active == true ? "text-black": "text-blue-600"}`}>Description</p></Tab>
+                        <Tab><p onClick={()=>setActive(!active)} className={`font-bold text-xl ${active == true ? "text-blue-600": "text-black"}`}>Reviews</p></Tab>
                     </TabList>
 
                     <TabPanel>
@@ -174,7 +198,7 @@ const Details = () => {
                     </p>
                 </div>
                 <img className="w-[300px] mx-auto" src={bottle?.image} alt="" /><br />
-                <button className=' btn btn-outline btn-block rounded-none hover:bg-cyan-900 text-xs sm:text-lg md:text-xl '>Add To Cart</button>
+                <button  className=' btn btn-outline btn-block rounded-none hover:bg-cyan-900 text-xs sm:text-lg md:text-xl '>Add To Cart</button>
             </div>
             <span className="text-lg flex text-yellow-500 gap-[2px] mt-3">
             <FaStar />

@@ -24,7 +24,7 @@ const About = () => {
                 </div>
             </div>
             <div className='relative bottom-32 md:bottom-48'>
-                <img className='w-[85%] md:w-[60%] mx-auto h-[225px] md:h-[454px]' src="https://s3-alpha-sig.figma.com/img/3cb4/3a49/2fa9b170a392c60dc77b7aa10a4901c2?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KqYr1DQXsYSKs0vLLmua-Y3906gUFjMIX~ZBeoAyCov6T7PBZK4P8QxGljOW5YdQlBK2g2Yuyb9vE0XDx7whnCXNz19-ZomGlnR9UfIYWhT29KKnDLCeZ0odGZKKCNkx1rsVs1DfO-HXh7u5DqxNS9zFfb96h32PBRtsy3OTyovq9Paf7CSRXV06~3lRZR70LTgkCRZNpJ8qziBwLaLUBbR3uWREhhzOh4LkqpdV~EjELmYauTmwJ43gR~g4Kownyh-B9zJH165f7W~x3n54wpMaJDaetCat43scBiYXnn1DMzGw4s91iq51tSPTIO7aJwkH3qgR3KZasPb3M2xW6A__" alt="" />
+                <img className='w-[85%] md:w-[60%] mx-auto h-[225px] md:h-[454px]' src="https://i.ibb.co/5WJ09kW/Rectangle-6114.png" alt="" />
             </div>
 
 
@@ -37,7 +37,7 @@ const About = () => {
                     {/* story section  */}
                 <section className='md:flex mt-12 md:mt-36 max-w-[1440px] items-center gap-20 mx-auto px-5 '>
                     <div className=''>
-                        <img className='w-full md:w-[500px] h-[407px]' src="https://s3-alpha-sig.figma.com/img/74c2/8c6d/da47ee1338b3923b0fe58f6023759a84?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O3aN1CV0FFzvZoVCRg~-j~aR81V27-WR7dNlpZc-TCGLPlO-eNhLWQ4Vht-gaf5QSVQEWpT4ax6JhP7mW7wn7LSfgcagyFYrIrE6l0CxgoFb5579EhS99LawOQBGE4lqA7EBy9ciTuQ5lRa6ktgf7r32Ax04VeQdzt0TDnGwHfkleBbSNsWYz8STFXSdIT5dsHzvF70I6j88EsGXANtl02c-tKixuBrCQJAAz0r3qDZW7GnaqZVPPQxzVfOJXiq2XBSIVTZqRgWysBIJ7OF3UZSH4Y2VLJ7y6h7wITY7MPHQDjWOOl7r1b~Thz-Ewvi7lbsD5JLVs7Tlw4GGewhZIA__" alt="" />
+                        <img className='w-full md:w-[500px] h-[407px]' src="https://i.ibb.co/35KGfrr/Rectangle-6117.png" alt="" />
                     </div>
                     <div className='w-full md:w-2/3 flex flex-col items-center md:items-start mt-6 md:mt-0'>
                         <h1 className='text-3xl md:text-5xl font-bold max-w-[820px] text-center md:text-start '>Our Story</h1>
@@ -64,7 +64,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='mt-6 md:mt-0'>
-                    <img className='w-full md:w-[500px] h-[407px]' src="https://s3-alpha-sig.figma.com/img/f3a4/4c09/2b64b73fc9fcb6493a2fb4a63fc45e14?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DPaPAYmg~Hq8YQoVY5EJkwMEToMZxJDeQMgG05TaLjblJANAyS~lw~n-AnW9wVbKgmulYwfzYfJ2zNMGqMz-HNgh2F-xkHLpUdv~GGTsPVo7Av6O8K79iP9II88tGPPJcfheutfxxu24miYGHtpxWcYUTpZ5sr3~5LFo-OY91Met~m0r3QWZIRCMeZ7RrLBDZ6PUcwUZKA4rGgJ13OeDJ5iuvXv80AytI~mEddxaILsU5wZ6cTvTfpnsP3s8HtLNpyvu0WmjphFyOUALQWcuHDbNkbPBErJwRENWjLNsnebEofOKBlyWcBabVKP0BmHglLvxhc88e-p6Q4iwmE~2qw__" alt="" />
+                    <img className='w-full md:w-[500px] h-[407px]' src="https://i.ibb.co/ZgNV8j9/Rectangle-6118.png" alt="" />
                 </div>
             </section>
 

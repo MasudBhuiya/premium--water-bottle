@@ -29,7 +29,7 @@ const Navbar2 = () => {
     <li><Link to="/shop">Shop</Link></li>
     <li><Link to="/blog">Blog</Link></li>
     <div className='flex gap-6 mt-3'>
-<a ><AiOutlineShoppingCart /></a>
+<Link to="/myaddedlist"><AiOutlineShoppingCart /></Link>
 {user ? <><button className="btn btn-success text-white" onClick={handleLogout}>LogOut</button></> : <button className="btn btn-success text-white"><Link to='/login'>Login</Link></button>}
     </div>
   </ul>
@@ -46,7 +46,7 @@ const Navbar2 = () => {
 </ul>
 </div>
 <div className="navbar-end gap-4 text-white text-2xl hidden lg:flex">
-<a ><AiOutlineShoppingCart /></a>
+<Link to="/myaddedlist"><AiOutlineShoppingCart /></Link>
 {user ? <><button className="btn btn-success text-white" onClick={handleLogout}>LogOut</button></> : <button className="btn btn-success text-white"><Link to='/login'>Login</Link></button>}
 </div>
 </div>

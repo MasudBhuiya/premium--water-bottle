@@ -1,5 +1,6 @@
 import { FaStar } from "react-icons/fa";
 import { IoHeartOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 const Card = ({ bottle }) => {
     console.log(bottle);
     return (
@@ -12,7 +13,7 @@ const Card = ({ bottle }) => {
                     </p>
                 </div>
                 <img className="w-[300px] mx-auto" src={bottle?.image} alt="" /><br />
-                <button className=' btn btn-outline btn-block rounded-none hover:bg-cyan-900 text-xl '>Add To Cart</button>
+                <Link to={`/shop/details/${bottle.id}`}><button className=' btn btn-outline btn-block rounded-none hover:bg-cyan-900 text-xl '>View Details</button></Link>
             </div>
             <span className="text-lg flex text-yellow-500 gap-[2px] mt-3">
             <FaStar />

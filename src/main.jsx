@@ -16,6 +16,7 @@ import ErrorPage from './components/ErrorPage/ErrorPage';
 import Details from './components/Details/Details';
 import PrivateRoute from './components/Route/PrivateRoute';
 import Blog from './components/Blog/Blog';
+import MyAddedCard from './components/MyAddedCard/MyAddedCard';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,11 @@ const router = createBrowserRouter([
   {
     path: 'blog',
     element: <Blog></Blog>
+  },
+  {
+    path: 'myaddedlist',
+    element: <MyAddedCard></MyAddedCard>,
+    loader: ()=> fetch("http://localhost:5000/bottles")
   },
   {
     path: 'shop/details/:id',

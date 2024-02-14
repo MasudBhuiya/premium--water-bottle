@@ -24,7 +24,7 @@ const About = () => {
                 </div>
             </div>
             <div className='relative bottom-32 md:bottom-48'>
-                <img className='w-[85%] md:w-[60%] mx-auto h-[225px] md:h-[454px]' src="https://i.ibb.co/5WJ09kW/Rectangle-6114.png" alt="" />
+                <img className='w-[85%] md:w-[60%] mx-auto shadow-2xlxl  h-[225px] md:h-[454px]' src="https://i.ibb.co/5WJ09kW/Rectangle-6114.png" alt="" />
             </div>
 
 

@@ -16,10 +16,10 @@ const Footer = () => {
             <span>
             <ul className="menu menu-horizontal px-1">
     <li><Link to="/">Home</Link></li>
-        <li><Link to="/#shop">Shop</Link></li>
-        <li><Link to="/#product">Product</Link></li>
-        <li><Link to="/#blog">Blog</Link></li>
-        <li><Link to="/#contact">Contact Us</Link></li>
+        <li><Link to="/shop">Shop</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
     </ul>
             </span>
             </div>

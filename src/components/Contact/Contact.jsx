@@ -1,5 +1,5 @@
 
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaFacebook, FaGoogle, FaInstagram, FaPhoneAlt, FaTwitter } from "react-icons/fa";
 import Navbar2 from "../../Shared/Navbar/Navbar2";
 import { IoMdPin } from "react-icons/io";
 import Footer from "../../Shared/Footer/Footer";
@@ -46,8 +46,8 @@ const Contact = () => {
                 <h1 className="text-4xl font-bold">Get In Touch</h1>
                     <p className="text-gray-500 my-5">I`m here to help! How can I assist you today? If you have any questions or need information on a specific topic, feel free to let me know. Keep in mind that while I can provide information and answer questions.</p>
                     <hr className="border" />
-                <h1 className="text-3xl font-bold mt-7">Address</h1>
-                    <div className="mt-4 mb-5 flex items-center gap-4">
+                <h1 className="text-3xl font-bold mt-5">Address</h1>
+                    <div className="mt-4 mb-4 flex items-center gap-4">
                     <div>
                     <IoMdPin className="text-6xl text-[#03677C]"/>
                     </div>
@@ -58,8 +58,8 @@ const Contact = () => {
                         </div>
                     </div>
                     <hr className="border" />
-                <h1 className="text-3xl font-bold mt-7">Emergency Call</h1>
-                    <div className="mt-4 mb-5 flex items-center gap-4">
+                <h1 className="text-3xl font-bold mt-5">Emergency Call</h1>
+                    <div className="mt-4 mb-4 flex items-center gap-4">
                     <div>
                     <FaPhoneAlt className="text-5xl text-[#03677C]"/>
                     </div>
@@ -70,8 +70,14 @@ const Contact = () => {
                         </div>
                     </div>
                     <hr className="border" />
-                    <h1 className="text-3xl font-bold mt-7">Address</h1>
-                    <p className="text-gray-500 my-5">I`m here to help! How can I assist you today? If you have any questions or need information on a specific topic, feel free to let me know. Keep in mind that while I can provide information and answer questions.</p>
+                    <h1 className="text-3xl font-bold mt-5">Address</h1>
+                    <p className="text-gray-500 my-4">I`m here to help! How can I assist you today? If you have any questions or need information on a specific topic, feel free to let me know. Keep in mind that while I can provide information and answer questions.</p>
+                    <span className="flex gap-5 text-3xl text-[#03677C]">
+                        <a href="https://www.facebook.com/masudbhuiyan1415" target="blank"><FaFacebook></FaFacebook></a>
+                        <a href="https://twitter.com/MasudBhuiy1415"><FaTwitter></FaTwitter></a>
+                        <a href="https://www.facebook.com/"><FaInstagram></FaInstagram></a>
+                        <a href="https://www.facebook.com/"><FaGoogle></FaGoogle></a>
+                    </span>
                 </div>
             </section>
             <Newsletter></Newsletter>

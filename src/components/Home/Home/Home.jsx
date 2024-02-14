@@ -221,8 +221,8 @@ const Home = () => {
                     <p className='text-lg mt-5 max-w-[850px] font-medium'>A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills. A water bottle is a container designed for holding and transporting water. It typically has a narrow neck and a cap or lid to prevent spills.</p>
 
                     <div className='flex items-center max-w-[600px] gap-5'>
-                        <button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Contact Us</button>
-                        <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
+                        <Link to="/contact"><button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Contact Us</button></Link>
+                        <Link to="/shop"><button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button></Link>
 
                     </div>
 
@@ -241,7 +241,7 @@ const Home = () => {
 
                     <div className='flex items-center max-w-[600px] gap-5'>
                         <Link to="/shop"><button className='banner-btn  text-[15px] md:font-bold px-9 mt-8'>Shop Now</button></Link>
-                        <button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button>
+                        <Link to="/shop"><button className='border border-black rounded-none py-[18px] flex items-center justify-center  text-[15px] md:font-bold px-9 mt-8'>View All</button></Link>
                     </div>
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
@@ -314,7 +314,7 @@ const Home = () => {
             <h1 className='title text-3xl md:text-6xl text-center md:text-start mb-4'>Latest Update</h1>
             <div className='flex justify-between items-center'>
                 <p>A water bottle is a container designed for holding and transporting water.</p>
-                <button className='banner-btn  text-[15px] md:font-bold px-9 '>Contact Us</button>
+                <Link to="/contact"><button className='banner-btn  text-[15px] md:font-bold px-9 '>Contact Us</button></Link>
             </div>
 
             <div className='grid grid-cols-1 lg:grid-cols-2'>

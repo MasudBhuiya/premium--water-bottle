@@ -44,7 +44,7 @@ const Home = () => {
 
             {/* clean section  */}
             <section className='bg-black '>
-                <div className='md:flex justify-between items-center max-w-[1440px] px-5  mx-auto text-white py-10'>
+                <div className='md:flex justify-between items-center max-w-[1400px] px-5 mx-auto text-white py-10'>
                     <div className='flex items-center gap-4'>
                         <img className='w-16' src="https://i.ibb.co/r0Qj5nK/Screenshot-2024-01-28-130523.png" alt="" />
                         <p>Easy Clean</p>
@@ -281,19 +281,19 @@ const Home = () => {
                 <div className='flex flex-wrap gap-6 justify-center sm:justify-between mt-16'>
                     <div>
                         <img src="https://i.ibb.co/SV3x55n/image-44-2.png" alt="" />
-                        <p className='mt-4'>LED Temperature Indicature</p>
+                        <p className='mt-8 text-xl font-bold'>LED Temperature Indicature</p>
                     </div>
                     <div>
                         <img src="https://i.ibb.co/gFmFLq2/image-44-1.png" alt="" />
-                        <p className='mt-4'>LED Temperature Indicature</p>
+                        <p className='mt-8 text-xl font-bold'>LED Temperature Indicature</p>
                     </div>
                     <div>
                         <img src="https://i.ibb.co/HYRRgZw/image-45.png" alt="" />
-                        <p className='mt-4'>LED Temperature Indicature</p>
+                        <p className='mt-8 text-xl font-bold'>LED Temperature Indicature</p>
                     </div>
                     <div>
                         <img src="https://i.ibb.co/TR6g4R5/image-5.png" alt="" />
-                        <p className='mt-4'>LED Temperature Indicature</p>
+                        <p className='mt-8 text-xl font-bold'>LED Temperature Indicature</p>
                     </div>
                 </div>
             </section>

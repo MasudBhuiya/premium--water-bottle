@@ -225,7 +225,7 @@ const Details = () => {
             <Newsletter></Newsletter>
 
 
-            <Footer>       </Footer>
+            <Footer></Footer>
         </div>
     );
 };

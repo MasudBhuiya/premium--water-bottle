@@ -4,7 +4,7 @@ const Questions = () => {
     return (
         <div>
             <section className=' md:mt-36  max-w-[1440px]  items-center gap-10 mx-auto px-5 '>
-                <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Frequently Asked Questions</h1>
+                <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto font-bold'>Frequently Asked Questions</h1>
                 <div className="collapse collapse-plus mb-4 bg-base-1000 shadow-sm mt-12 md:mt-20">
                     <input type="radio" name="my-accordion-3" checked="checked" />
                     <div className="collapse-title text-xl font-medium">

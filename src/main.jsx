@@ -17,6 +17,7 @@ import Details from './components/Details/Details';
 import PrivateRoute from './components/Route/PrivateRoute';
 import Blog from './components/Blog/Blog';
 import MyAddedCard from './components/MyAddedCard/MyAddedCard';
+import Contact from './components/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
       {
         path: 'register',
         element: <Register></Register>
+      },
+      {
+        path: 'myaddedlist',
+        element: <PrivateRoute><MyAddedCard></MyAddedCard></PrivateRoute>,
+        loader: ()=> fetch("http://localhost:5000/bottles")
       }
     ]
   },
@@ -51,9 +57,8 @@ const router = createBrowserRouter([
     element: <Blog></Blog>
   },
   {
-    path: 'myaddedlist',
-    element: <MyAddedCard></MyAddedCard>,
-    loader: ()=> fetch("http://localhost:5000/bottles")
+    path: 'contact',
+    element: <Contact></Contact>
   },
   {
     path: 'shop/details/:id',

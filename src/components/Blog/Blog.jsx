@@ -1,6 +1,7 @@
 import { FaCalendar, FaUserCircle } from "react-icons/fa";
 import Navbar2 from "../../Shared/Navbar/Navbar2";
 import Newsletter from "../../Shared/Newsletter";
+import Footer from "../../Shared/Footer/Footer";
 
 
 const Blog = () => {
@@ -52,6 +53,7 @@ const Blog = () => {
                 </div>
             </section>
             <Newsletter></Newsletter>
+            <Footer></Footer>
         </div>
     );
 };

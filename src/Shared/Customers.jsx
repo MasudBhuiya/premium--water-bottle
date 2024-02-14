@@ -5,7 +5,7 @@ const Customers = () => {
         <div>
             {/* customer love section  */}
             <div className='mt-20 md:mt-32 p-5  max-w-[1440px] mx-auto'>
-                <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto'>Our Customer Love</h1>
+                <h1 className='title text-3xl md:text-6xl text-center max-w-[830px] mx-auto font-bold'>Our Customer Love</h1>
                 <p className=' max-w-[657px] mx-auto text-xl text-center mt-3'>Embarking on Adventures, Building Memories: Where Customer Love Takes Flight with the Travel Guru</p>
 
 

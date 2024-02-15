@@ -11,7 +11,7 @@ const MyAddedCard = () => {
     const [mylists, setMyLists] = useState([]);
     const myAddedlists = useLoaderData();
     const {user} = useContext(AuthContext);
-    console.log(mylists);
+    console.log(myAddedlists);
 
     useEffect(()=>{
         const mydata = myAddedlists?.filter(mylist => mylist?.email == user?.email);
@@ -30,7 +30,7 @@ const MyAddedCard = () => {
         }).then((result) => {
             if (result.isConfirmed) {
                 console.log(item._id)
-                fetch(`http://localhost:5000/bottles/${item._id}`, {
+                fetch(`https://assignment-eleven-server-f4fww2rtx-masudbhuiya.vercel.app/bottles/${item._id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

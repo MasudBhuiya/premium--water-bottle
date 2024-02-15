@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       {
         path: 'myaddedlist',
         element: <PrivateRoute><MyAddedCard></MyAddedCard></PrivateRoute>,
-        loader: ()=> fetch("http://localhost:5000/bottles")
+        loader: ()=> fetch("https://assignment-eleven-server-f4fww2rtx-masudbhuiya.vercel.app/bottles")
       }
     ]
   },

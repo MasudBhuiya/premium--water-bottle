@@ -38,5 +38,18 @@
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasudBhuiya/premium--water-bottle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasudBhuiya/premium--water-bottle/issues"
+  },
+  "homepage": "https://github.com/MasudBhuiya/premium--water-bottle#readme"
 }
